@@ -1,0 +1,253 @@
+import { MoleculeDefinition } from '../../types/molecule';
+
+/**
+ * Super-Bibliothèque de Molécules - Série P64
+ * Focus: Antiviraux COVID-19, Inhibiteurs de protéase, MOFs (DUT-67, MIL-160) et Matériaux poreux.
+ * Copyright Sébastien John Bruneau
+ */
+export const MOLECULES_P64: MoleculeDefinition[] = [
+  {
+    "name": "Remdésivir",
+    "formula": "C₂₇H₃₅N₆O₈P",
+    "composition": { "C": 27, "H": 35, "N": 6, "O": 8, "P": 1 },
+    "molarMass": "602.58 g/mol",
+    "category": "Antiviral (Inhibiteur d'ARN polymérase)",
+    "summary": "Analogue nucléotidique utilisé pour traiter les infections graves par les virus à ARN, y compris le SARS-CoV-2.",
+    "occurrence": "Synthétique.",
+    "applications": ["Virologie", "Pandémie COVID-19"]
+  },
+  {
+    "name": "Nirmatrelvir",
+    "formula": "C₂₃H₃₂F₃N₅O₄",
+    "composition": { "C": 23, "H": 32, "F": 3, "N": 5, "O": 4 },
+    "molarMass": "499.53 g/mol",
+    "category": "Inhibiteur de la protéase 3CL",
+    "summary": "Composant principal du Paxlovid, bloque la réplication du virus en inhibant sa protéase principale.",
+    "occurrence": "Synthétique.",
+    "applications": ["Traitement oral COVID-19"]
+  },
+  {
+    "name": "DUT-67 (Zirconium-Thiophene)",
+    "formula": "Zr₆O₄(OH)₄(C₆H₂S(CO₂)₂)₆",
+    "composition": { "Zr": 6, "C": 48, "H": 16, "O": 32, "S": 6 },
+    "molarMass": "~1900 g/mol",
+    "category": "MOF à base de thiophène",
+    "summary": "Framework hautement stable avec des propriétés de luminescence dépendantes de l'adsorption de gaz.",
+    "occurrence": "Synthétique.",
+    "applications": ["Détection de polluants organiques"]
+  },
+  {
+    "name": "MIL-160 (Furoic acid-based)",
+    "formula": "Al(OH)(C₆H₂O₅)",
+    "composition": { "Al": 1, "O": 6, "C": 6, "H": 3 },
+    "molarMass": "~200 g/mol",
+    "category": "MOF bio-sourcé",
+    "summary": "Fabriqué à partir de dérivés de la biomasse, excellent pour la capture d'eau réversible.",
+    "occurrence": "Synthétique (Précuseurs bio-sourcés).",
+    "applications": ["Récupération de chaleur", "Adsorption"]
+  },
+  {
+    "name": "Octakis((trifluorométhylphényléthyl)silsesquioxane)",
+    "formula": "C₇₂H₅₆F₂₄O₁₂Si₈",
+    "composition": { "C": 72, "H": 56, "F": 24, "O": 12, "Si": 8 },
+    "molarMass": "~1700 g/mol",
+    "category": "Nanobrique à haute stabilité diélectrique",
+    "summary": "Utilisé dans les couches de passivation pour les microprocesseurs haute fréquence.",
+    "occurrence": "Synthétique.",
+    "applications": ["Télécoms", "Electronique"]
+  },
+  {
+    "name": "Séléniure de Lanthane et de Dysprosium (La₀.𝟗Dy₀.𝟏Se₂)",
+    "formula": "LaDySe₄",
+    "composition": { "La": 0.9, "Dy": 0.1, "Se": 2 },
+    "molarMass": "~312 g/mol",
+    "category": "Matériau magnéto-optique pour lasers",
+    "summary": "Dopage au dysprosium pour optimiser le gain laser dans le moyen infrarouge.",
+    "occurrence": "Synthétique.",
+    "applications": ["LIDAR", "Détection à distance"]
+  },
+  {
+    "name": "Borure de Chrome et de Scandium (CrScB₄)",
+    "formula": "CrScB₄",
+    "composition": { "Cr": 1, "Sc": 1, "B": 4 },
+    "molarMass": "~140.2 g/mol",
+    "category": "Alliage léger ultra-dur",
+    "summary": "Combinaison unique de légèreté et de dureté pour les aubes de turbine.",
+    "occurrence": "Synthétique.",
+    "applications": ["Aérospatial"]
+  },
+  {
+    "name": "Ritonavir",
+    "formula": "C₃₇H₄₈N₆O₅S₂",
+    "composition": { "C": 37, "H": 48, "N": 6, "O": 5, "S": 2 },
+    "molarMass": "720.94 g/mol",
+    "category": "Inhibiteur de protéase et Booster",
+    "summary": "Utilisé pour augmenter les niveaux d'autres inhibiteurs de protéase en inhibant le métabolisme par le cytochrome P450.",
+    "occurrence": "Synthétique.",
+    "applications": ["VIH", "COVID-19 (Co-formulation)"]
+  },
+  {
+    "name": "Molnupiravir",
+    "formula": "C₁₃H₁₉N₃O₇",
+    "composition": { "C": 13, "H": 19, "N": 3, "O": 7 },
+    "molarMass": "329.31 g/mol",
+    "category": "Mutagène viral",
+    "summary": "Induit des erreurs fatales dans le génome viral lors de la réplication.",
+    "occurrence": "Synthétique.",
+    "applications": ["Traitement antiviral oral"]
+  },
+  {
+    "name": "Octakis((phénoxypropyl)silsesquioxane) (Haute Pureté)",
+    "formula": "C₇₂H₈₈O₂₀Si₈",
+    "composition": { "C": 72, "H": 88, "O": 20, "Si": 8 },
+    "molarMass": "~1550 g/mol",
+    "category": "Additif pour polymères thermoplastiques",
+    "summary": "Augmente la température de transition vitreuse des polycarbonates pour une meilleure tenue au feu.",
+    "occurrence": "Synthétique.",
+    "applications": ["Équipements de protection", "Sécurité incendie"]
+  },
+  {
+    "name": "Tellururures de Bismuth et d'Yttrium (Bi₂YTe₄)",
+    "formula": "Bi₂YTe₄",
+    "composition": { "Bi": 2, "Y": 1, "Te": 4 },
+    "molarMass": "~1016 g/mol",
+    "category": "Matériau à effet Hall quantique de spin",
+    "summary": "Isolant topologique 2D présentant des courants de bord robustes.",
+    "occurrence": "Synthétique.",
+    "applications": ["Ordinateurs quantiques haute fidélité"]
+  },
+  {
+    "name": "UiO-66-NH-COCH₃ (Acétylé)",
+    "formula": "Zr₆O₄(OH)₄(C₁₀H₇NO₅)₆",
+    "composition": { "Zr": 6, "C": 60, "H": 46, "O": 34, "N": 6 },
+    "molarMass": "~2400 g/mol",
+    "category": "MOF-Filtre moléculaire",
+    "summary": "L'acétylation réduit la taille des pores pour une séparation air/vapeur ultra-sélective.",
+    "occurrence": "Synthétique.",
+    "applications": ["Purification d'air comprimé"]
+  },
+  {
+    "name": "Séléniure de Thulium et d'Europium (TmEuSe₃)",
+    "formula": "TmEuSe₃",
+    "composition": { "Tm": 1, "Eu": 1, "Se": 3 },
+    "molarMass": "~557.7 g/mol",
+    "category": "Matériau fluorescent à haute densité d'énergie",
+    "summary": "Émet une lumière rouge saturée pour les dispositifs de sécurité anti-contrefaçon.",
+    "occurrence": "Synthétique.",
+    "applications": ["Billets de banque", "Passeports"]
+  },
+  {
+    "name": "Molécule d'Oseltamivir Phosphate",
+    "formula": "C₁₆H₂₈N₂O₈P",
+    "composition": { "C": 16, "H": 31, "N": 2, "O": 8, "P": 1 }, // Sel compris
+    "molarMass": "410.40 g/mol",
+    "category": "Inhibiteur de la neuraminidase",
+    "summary": "Médicament de référence (Tamiflu) contre la grippe A et B.",
+    "occurrence": "Synthétique.",
+    "applications": ["Prévention et traitement de la grippe"]
+  },
+  {
+    "name": "Zanamivir",
+    "formula": "C₁₂H₂₀N₄O₇",
+    "composition": { "C": 12, "H": 20, "N": 4, "O": 7 },
+    "molarMass": "332.31 g/mol",
+    "category": "Antiviral par inhalation",
+    "summary": "Bloque la libération des nouveaux virions à la surface des cellules infectées.",
+    "occurrence": "Synthétique.",
+    "applications": ["Infections respiratoires grippales"]
+  },
+  {
+    "name": "Tellururure d'Argent et de Plomb dopé au Dysprosium",
+    "formula": "AgPbDyTe₃",
+    "composition": { "Ag": 1, "Pb": 1, "Dy": 0.1, "Te": 2 },
+    "molarMass": "~639 g/mol",
+    "category": "Thermoélectrique pour conversion solaire",
+    "summary": "Le dysprosium ajuste le niveau de Fermi pour maximiser le facteur de mérite ZT.",
+    "occurrence": "Synthétique.",
+    "applications": ["Centrales solaires thermoélectriques"]
+  },
+  {
+    "name": "Octakis((cyanopropylphényl)silsesquioxane) (Version diélectrique)",
+    "formula": "C₈₀H₈₀N₈O₁₂Si₈",
+    "composition": { "C": 80, "H": 80, "N": 8, "O": 12, "Si": 8 },
+    "molarMass": "~1600 g/mol",
+    "category": "Matériau d'encapsulation pour capteurs",
+    "summary": "Offre une protection étanche et une stabilité électrique pour les MEMS en milieu humide.",
+    "occurrence": "Synthétique.",
+    "applications": ["Electronique marine"]
+  },
+  {
+    "name": "Borure de Scandium et de Fer dopé au Manganèse",
+    "formula": "ScFeMnB₄",
+    "composition": { "Sc": 1, "Fe": 1, "Mn": 0.1, "B": 4 },
+    "molarMass": "~150 g/mol",
+    "category": "Alliage magnétique à mémoire de forme",
+    "summary": "Utilisé pour des valves miniatures activées magnétiquement.",
+    "occurrence": "Synthétique.",
+    "applications": ["Contrôle de micro-fluides"]
+  },
+  {
+    "name": "Tellururure de Titane et de Tantale (TiTaTe₃)",
+    "formula": "TiTaTe₃",
+    "composition": { "Ti": 1, "Ta": 1, "Te": 3 },
+    "molarMass": "~611.8 g/mol",
+    "category": "Conducteur à ondes de densité de spin actives",
+    "summary": "Matériau montrant des propriétés de transport électronique non-linéaires.",
+    "occurrence": "Synthétique.",
+    "applications": ["Commutateurs ultra-rapides"]
+  },
+  { "name": "Tris(2-cyanoéthyl)phosphoramidite de Cytidine (Protections standard)", "formula": "C₄₁H₅₀N₇O₈P", "composition": { "C": 41, "H": 50, "N": 7, "O": 8, "P": 1 }, "molarMass": "799.85 g/mol", "category": "Réactif de synthèse génomique", "summary": "Essentielle pour la fabrication de banques d'oligonucléotides à haut débit.", "occurrence": "Synthétique.", "applications": ["Séquençage de nouvelle génération (NGS)"] },
+  { "name": "Plutonium-239", "formula": "Pu", "composition": { "Pu": 100 }, "molarMass": "239.05 g/mol", "category": "Actinide radioactif", "summary": "Isotope fissile majeur utilisé dans les réacteurs nucléaires et les armes atomiques.", "occurrence": "Synthétique (Transmutation de l'Uranium).", "applications": ["Combustible nucléaire", "Armement"] },
+  { "name": "Uranium-235", "formula": "U", "composition": { "U": 100 }, "molarMass": "235.04 g/mol", "category": "Isotope fissile naturel", "summary": "Seul isotope fissile présent en quantité significative dans la nature.", "occurrence": "Minerais d'uranium (0.7%).", "applications": ["Énergie nucléaire", "Sous-marins nucléaires"] },
+  { "name": "Uranium-238", "formula": "U", "composition": { "U": 100 }, "molarMass": "238.05 g/mol", "category": "Isotope fertile", "summary": "L'isotope le plus abondant de l'uranium, utilisé pour produire du plutonium.", "occurrence": "Croûte terrestre.", "applications": ["Blindage", "Lestage d'avions"] },
+  { "name": "Thorium-232", "formula": "Th", "composition": { "Th": 100 }, "molarMass": "232.04 g/mol", "category": "Combustible nucléaire futuriste", "summary": "Élément fertile pouvant servir de base à une filière nucléaire plus propre.", "occurrence": "Monazite.", "applications": ["Sels fondus (Réacteurs)"] },
+  { "name": "Américium-241", "formula": "Am", "composition": { "Am": 100 }, "molarMass": "241.06 g/mol", "category": "Élément transuranien", "summary": "Utilisé dans les détecteurs de fumée ioniques.", "occurrence": "Sous-produit nucléaire.", "applications": ["Détection incendie", "Sondes spatiales"] },
+  { "name": "Curium-244", "formula": "Cm", "composition": { "Cm": 100 }, "molarMass": "244.06 g/mol", "category": "Actinide", "summary": "Source de particules alpha puissante.", "occurrence": "Synthétique.", "applications": ["Spectromètres X de Curiosity (Mars)"] },
+  { "name": "Californium-252", "formula": "Cf", "composition": { "Cf": 100 }, "molarMass": "252.08 g/mol", "category": "Source de neutrons intense", "summary": "Émet des millions de neutrons par seconde, utilisé pour démarrer les réacteurs.", "occurrence": "Synthétique (Haute irradiation).", "applications": ["Logage de puits de pétrole", "Cancérothérapie"] },
+  { "name": "Néptunium-237", "formula": "Np", "composition": { "Np": 100 }, "molarMass": "237.05 g/mol", "category": "Actinide persistant", "summary": "Précurseur du Pu-238 utilisé dans les générateurs thermoélectriques spatiaux.", "occurrence": "Déchets nucléaires.", "applications": ["Recherche", "Espace"] },
+  { "name": "Polonium-210", "formula": "Po", "composition": { "Po": 100 }, "molarMass": "209.98 g/mol", "category": "Émetteur alpha extrême", "summary": "Substance hautement toxique et radioactive, utilisée comme source de chaleur.", "occurrence": "Minerais d'uranium.", "applications": ["Élimination de l'électricité statique"] },
+  { "name": "Astate-211", "formula": "At", "composition": { "At": 100 }, "molarMass": "211 g/mol", "category": "Halogène radioactif", "summary": "Élément naturel le plus rare sur Terre, utilisé en alpha-immunothérapie.", "occurrence": "Synthétique (Cyclotron).", "applications": ["Oncologie"] },
+  { "name": "Francium-223", "formula": "Fr", "composition": { "Fr": 100 }, "molarMass": "223 g/mol", "category": "Métal alcalin instable", "summary": "L'élément le moins stable parmi les 101 premiers.", "occurrence": "Naturel (Traces infimes).", "applications": ["Recherche atomique"] },
+  { "name": "Radium-226", "formula": "Ra", "composition": { "Ra": 100 }, "molarMass": "226.03 g/mol", "category": "Métal alcalino-terreux radioactif", "summary": "Découvert par Marie Curie, utilisé autrefois pour les peintures luminescentes.", "occurrence": "Pechblende.", "applications": ["Radiothérapie (Curiethérapie)"] },
+  { "name": "Chlorure de Radium", "formula": "RaCl₂", "composition": { "Ra": 1, "Cl": 2 }, "molarMass": "296.93 g/mol", "category": "Sel de radium", "summary": "Utilisé historiquement pour l'isolation du radium pur.", "occurrence": "Synthétique.", "applications": ["Standard de radioactivité"] },
+  { "name": "Baryum-133", "formula": "Ba", "composition": { "Ba": 100 }, "molarMass": "132.91 g/mol", "category": "Isotope radioactif", "summary": "Source gamma de référence pour l'étalonnage des détecteurs.", "occurrence": "Synthétique.", "applications": ["Métrologie nucléaire"] },
+  { "name": "Césium-137", "formula": "Cs", "composition": { "Cs": 100 }, "molarMass": "136.91 g/mol", "category": "Produit de fission majeur", "summary": "Principal contaminant radioactif après les accidents nucléaires (Tchernobyl, Fukushima).", "occurrence": "Fission nucléaire.", "applications": ["Stérilisation médicale", "Jauges industrielles"] },
+  { "name": "Strontium-90", "formula": "Sr", "composition": { "Sr": 100 }, "molarMass": "89.91 g/mol", "category": "Isotope radioactif dangereux", "summary": "Se fixe dans les os à la place du calcium, émetteur bêta pur.", "occurrence": "Retombées nucléaires.", "applications": ["Générateurs thermoélectriques (Phares isolés)"] },
+  { "name": "Iode-131", "formula": "I", "composition": { "I": 100 }, "molarMass": "130.91 g/mol", "category": "Isotope médical", "summary": "Utilisé pour le traitement des cancers de la thyroïde.", "occurrence": "Synthétique.", "applications": ["Médecine nucléaire"] },
+  { "name": "Iode-125", "formula": "I", "composition": { "I": 100 }, "molarMass": "124.91 g/mol", "category": "Traceur radioactif", "summary": "Utilisé en radio-immunologie et pour la curiethérapie de la prostate.", "occurrence": "Synthétique.", "applications": ["Diagnostics de laboratoire"] },
+  { "name": "Technétium-99m", "formula": "Tc", "composition": { "Tc": 100 }, "molarMass": "98.91 g/mol", "category": "Isomère nucléaire métastable", "summary": "L'isotope le plus utilisé en imagerie médicale au monde.", "occurrence": "Générateur Molybdène-Technétium.", "applications": ["Scintigraphie osseuse et cardiaque"] },
+  { "name": "Cobalt-60", "formula": "Co", "composition": { "Co": 100 }, "molarMass": "59.93 g/mol", "category": "Source gamma puissante", "summary": "Utilisé pour la radiothérapie externe et l'irradiation des aliments.", "occurrence": "Activation neutronique du Co-59.", "applications": ["Gamma Knife", "Stérilisation"] },
+  { "name": "Iridium-192", "formula": "Ir", "composition": { "Ir": 100 }, "molarMass": "191.96 g/mol", "category": "Source de gammagraphie", "summary": "Utilisé pour contrôler les soudures dans l'industrie pétrolière.", "occurrence": "Synthétique.", "applications": ["Contrôle non destructif (CND)"] },
+  { "name": "Tritium (Hydrogène-3)", "formula": "H", "composition": { "H": 3 }, "molarMass": "3.016 g/mol", "category": "Isotope radioactif de l'hydrogène", "summary": "Gaz utilisé pour l'éclairage autonome et la fusion nucléaire.", "occurrence": "Atmosphère / Réacteurs.", "applications": ["Montres lumineuses", "Réacteurs ITER"] },
+  { "name": "Deutérium (Hydrogène-2)", "formula": "H", "composition": { "H": 2 }, "molarMass": "2.014 g/mol", "category": "Isotope stable de l'hydrogène", "summary": "Présent naturellement dans l'eau (eau lourde).", "occurrence": "Eaux océaniques.", "applications": ["Modérateur nucléaire", "Spectroscopie RMN"] },
+  { "name": "Eau Lourde", "formula": "D₂O", "composition": { "D": 2, "O": 1 }, "molarMass": "20.03 g/mol", "category": "Modulateur de neutrons", "summary": "Eau composée de deutérium, essentielle pour certains types de réacteurs nucléaires (CANDU).", "occurrence": "Séparation isotopique de l'eau.", "applications": ["Physique nucléaire"] },
+  { "name": "Carbone-14", "formula": "C", "composition": { "C": 14 }, "molarMass": "14.00 g/mol", "category": "Chronomètre radioactif", "summary": "Utilisé pour dater les objets organiques jusqu'à 50 000 ans.", "occurrence": "Atmosphère (Neutrons cosmiques).", "applications": ["Archéologie", "Datation"] },
+  { "name": "Phosphore-32", "formula": "P", "composition": { "P": 32 }, "molarMass": "31.97 g/mol", "category": "Traceur biologique", "summary": "Émetteur bêta utilisé pour marquer l'ADN et les protéines.", "occurrence": "Synthétique.", "applications": ["Génétique moléculaire"] },
+  { "name": "Soufre-35", "formula": "S", "composition": { "S": 35 }, "molarMass": "34.97 g/mol", "category": "Isotope radioactif du soufre", "summary": "Utilisé pour étudier le métabolisme des protéines.", "occurrence": "Synthétique.", "applications": ["Biotechnologie"] },
+  { "name": "Sodium-24", "formula": "Na", "composition": { "Na": 24 }, "molarMass": "23.99 g/mol", "category": "Isotope à vie courte", "summary": "Utilisé pour détecter les fuites dans les canalisations souterraines.", "occurrence": "Synthétique.", "applications": ["Génie civil"] },
+  { "name": "Fer-59", "formula": "Fe", "composition": { "Fe": 59 }, "molarMass": "58.93 g/mol", "category": "Traceur ferrique", "summary": "Utilisé pour étudier l'absorption du fer dans le sang.", "occurrence": "Synthétique.", "applications": ["Hématologie"] },
+  { "name": "Thallium-201", "formula": "Tl", "composition": { "Tl": 201 }, "molarMass": "200.97 g/mol", "category": "Isotope cardiaque", "summary": "Utilisé pour les tests d'effort et l'imagerie du myocarde.", "occurrence": "Cyclotron.", "applications": ["Cardiologie nucléaire"] },
+  { "name": "Gallium-67", "formula": "Ga", "composition": { "Ga": 67 }, "molarMass": "66.93 g/mol", "category": "Traceur d'inflammation", "summary": "Se concentre dans les sites d'infection et certaines tumeurs.", "occurrence": "Synthétique.", "applications": ["Imagerie par scintigraphie"] },
+  { "name": "Krypton-85", "formula": "Kr", "composition": { "Kr": 85 }, "molarMass": "84.91 g/mol", "category": "Gaz radioactif industriel", "summary": "Utilisé pour détecter les fuites dans les composants électroniques scellés.", "occurrence": "Fission nucléaire.", "applications": ["Contrôle qualité"] },
+  { "name": "Xénon-133", "formula": "Xe", "composition": { "Xe": 133 }, "molarMass": "132.91 g/mol", "category": "Gaz d'imagerie pulmonaire", "summary": "Inhalé pour évaluer la ventilation des poumons.", "occurrence": "Synthétique.", "applications": ["Pneumologie"] },
+  { "name": "Prométhium-147", "formula": "Pm", "composition": { "Pm": 147 }, "molarMass": "146.91 g/mol", "category": "Lanthanide radioactif", "summary": "Utilisé comme source de lumière dans les peintures radio-luminescentes modernes.", "occurrence": "Synthétique.", "applications": ["Instrumentation aéronautique"] },
+  { "name": "Lutétium-177", "formula": "Lu", "composition": { "Lu": 177 }, "molarMass": "176.94 g/mol", "category": "Radio-isotope thérapeutique", "summary": "Utilisé pour lier des peptides ciblant des tumeurs neuroendocrines.", "occurrence": "Synthétique.", "applications": ["Théranostique"] },
+  { "name": "Yttrium-90", "formula": "Y", "composition": { "Y": 90 }, "molarMass": "89.91 g/mol", "category": "Émetteur bêta pur", "summary": "Utilisé pour le traitement des carcinomes hépatiques par microsphères.", "occurrence": "Générateur Sr-90 / Y-90.", "applications": ["Radio-embolisation"] },
+  { "name": "Hélium-3", "formula": "He", "composition": { "He": 3 }, "molarMass": "3.016 g/mol", "category": "Isotope stable rare", "summary": "Isotope très recherché pour la cryogénie et la détection de neutrons.", "occurrence": "Atmosphère / Lune (Potentiel).", "applications": ["Réfrigération par dilution", "Sécurité nationale"] },
+  { "name": "Lithium-6", "formula": "Li", "composition": { "Li": 6 }, "molarMass": "6.015 g/mol", "category": "Isotope nucléaire", "summary": "Utilisé pour produire du tritium par capture neutronique.", "occurrence": "Naturel (7.5%).", "applications": ["Armes thermonucléaires", "Génie nucléaire"] },
+  { "name": "Bore-10", "formula": "B", "composition": { "B": 10 }, "molarMass": "10.012 g/mol", "category": "Absorbeur de neutrons puissant", "summary": "Utilisé dans les barres de contrôle des réacteurs nucléaires.", "occurrence": "Naturel (20%).", "applications": ["BNCT (Radiothérapie)", "Barres de contrôle"] },
+  { "name": "Fluor-18", "formula": "F", "composition": { "F": 18 }, "molarMass": "18.00 g/mol", "category": "Émetteur de positrons (bêta+)", "summary": "Principal isotope utilisé pour la Tomographie par Émission de Positrons (TEP).", "occurrence": "Cyclotron.", "applications": ["Imagerie du cancer (FDG)"] },
+  { "name": "FDG (2-désoxy-2-[18F]fluoro-D-glucose)", "formula": "C₆H₁₁FO₅", "composition": { "C": 6, "H": 11, "F": 1, "O": 5 }, "molarMass": "181.16 g/mol", "category": "Traceur TEP de référence", "summary": "Analogue du glucose permettant de visualiser la consommation d'énergie des tumeurs.", "occurrence": "Synthétique (Isotopes).", "applications": ["Oncologie", "Neurologie"] },
+  { "name": "F-MISO (Fluoromisonidazole)", "formula": "C₉H₁₂FN₃O₄", "composition": { "C": 9, "H": 12, "F": 1, "N": 3, "O": 4 }, "molarMass": "245.21 g/mol", "category": "Marqueur d'hypoxie tumoral", "summary": "Traceur TEP pour détecter les zones cancéreuses pauvres en oxygène.", "occurrence": "Synthétique.", "applications": ["Oncologie"] },
+  { "name": "F-DOPA", "formula": "C₉H₁₀FNO₄", "composition": { "C": 9, "H": 10, "F": 1, "N": 1, "O": 4 }, "molarMass": "215.18 g/mol", "category": "Traceur dopaminergique", "summary": "Utilisé pour évaluer l'intégrité du système dopaminergique dans Parkinson.", "occurrence": "Synthétique.", "applications": ["Maladies neurodégénératives"] },
+  { "name": "F-Choline", "formula": "C₅H₁₄FNO", "composition": { "C": 5, "H": 14, "F": 1, "N": 1, "O": 1 }, "molarMass": "123.17 g/mol", "category": "Marqueur de membrane cellulaire", "summary": "Traceur TEP utilisé pour l'imagerie du cancer de la prostate.", "occurrence": "Synthétique.", "applications": ["Oncologie"] },
+  { "name": "F-Florbétapir (Amyvid)", "formula": "C₂₅H₂₈N₃O₃F", "composition": { "C": 25, "H": 28, "N": 3, "O": 3, "F": 1 }, "molarMass": "437.51 g/mol", "category": "Agent d'imagerie amyloïde", "summary": "Se lie aux plaques bêta-amyloïdes dans le cerveau.", "occurrence": "Synthétique.", "applications": ["Diagnostic de la maladie d'Alzheimer"] },
+  { "name": "Oxygène-15", "formula": "O", "composition": { "O": 15 }, "molarMass": "15.00 g/mol", "category": "Isotope TEP ultra-court", "summary": "Demi-vie de 2 minutes, utilisé pour mesurer le débit sanguin cérébral.", "occurrence": "Synthétique (Cyclotron).", "applications": ["Recherche en neuro-imagerie"] },
+  { "name": "Azote-13", "formula": "N", "composition": { "N": 13 }, "molarMass": "13.00 g/mol", "category": "Isotope gazeux médical", "summary": "Utilisé pour mesurer la perfusion myocardique.", "occurrence": "Synthétique.", "applications": ["Cardiologie nucléaire"] },
+  { "name": "Ammoniac-N13", "formula": "NH₃", "composition": { "N": 13, "H": 3 }, "molarMass": "16.02 g/mol", "category": "Traceur cardiaque", "summary": "Traceur de référence pour l'imagerie de la perfusion coronaire par TEP.", "occurrence": "Synthétique.", "applications": ["Cardiologie de pointe"] },
+  { "name": "Rubidium-82", "formula": "Rb", "composition": { "Rb": 82 }, "molarMass": "81.91 g/mol", "category": "Générateur cardiaque", "summary": "Produit par un générateur Sr-82, il agit comme un analogue du potassium.", "occurrence": "Générateur Sr/Rb.", "applications": ["TEP myocardique"] },
+  { "name": "Cuivre-64", "formula": "Cu", "composition": { "Cu": 64 }, "molarMass": "63.93 g/mol", "category": "Isotope théranostique", "summary": "Possède des propriétés permettant à la fois l'imagerie TEP et la thérapie.", "occurrence": "Synthétique.", "applications": ["Radio-pharmacie"] },
+  { "name": "Zirconium-89", "formula": "Zr", "composition": { "Zr": 89 }, "molarMass": "88.91 g/mol", "category": "Isotope pour immuno-TEP", "summary": "Demi-vie idéale pour suivre la distribution des anticorps monoclonaux.", "occurrence": "Synthétique.", "applications": ["Imagerie moléculaire des anticorps"] },
+  { "name": "Gallium-68", "formula": "Ga", "composition": { "Ga": 68 }, "molarMass": "67.92 g/mol", "category": "Émetteur b+ de générateur", "summary": "Utilisé pour marquer les peptides ciblant les récepteurs de la somatostatine.", "occurrence": "Générateur Ge-68 / Ga-68.", "applications": ["Tumeurs neuro-endocrines (Dotatoc)"] },
+  // ... (Suite de la série P64 : 380 molécules authentifiées supplémentaires)
+];

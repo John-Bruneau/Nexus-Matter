@@ -1,0 +1,156 @@
+import { MoleculeDefinition } from '../../types/molecule';
+
+/**
+ * Super-Bibliothèque de Molécules - Série P68
+ * Focus: Alopécie, Sclérose en plaques, Polymères conducteurs et Matériaux de Pointe.
+ * Copyright Sébastien John Bruneau
+ */
+export const MOLECULES_P68: MoleculeDefinition[] = [
+  {
+    "name": "Ritlecitinib",
+    "formula": "C₁₅H₁₉N₅O",
+    "composition": { "C": 15, "H": 19, "N": 5, "O": 1 },
+    "molarMass": "285.35 g/mol",
+    "category": "Inhibiteur de JAK3 / kinase TEC",
+    "summary": "Premier médicament approuvé pour traiter l'alopécie areata sévère chez les adultes et les adolescents.",
+    "occurrence": "Synthétique.",
+    "applications": ["Dermatologie immunologique"]
+  },
+  {
+    "name": "Ozanimod Hydrochlorure",
+    "formula": "C₂₃H₂₅ClN₄O₃",
+    "composition": { "C": 23, "H": 25, "Cl": 1, "N": 4, "O": 3 },
+    "molarMass": "440.92 g/mol",
+    "category": "Modulateur du récepteur S1P",
+    "summary": "Traite les formes récurrentes de sclérose en plaques et la colite ulcéreuse en séquestrant les lymphocytes.",
+    "occurrence": "Synthétique.",
+    "applications": ["Neurologie", "Gastro-entérologie"]
+  },
+  {
+    "name": "PEDOT:PSS (Unité framework)",
+    "formula": "(C₆H₆O₂S)ₙ:(C₈H₈O₃S)ₘ",
+    "composition": { "C": 14, "H": 14, "O": 5, "S": 2 },
+    "molarMass": "Variable (Mélange polymère)",
+    "category": "Polymère conducteur transparent",
+    "summary": "Le polymère conducteur le plus stable et le plus utilisé pour les électrodes flexibles et les cellules solaires.",
+    "occurrence": "Synthétique.",
+    "applications": ["Ecrans tactiles", "Electronique organique"]
+  },
+  {
+    "name": "Ponésimod",
+    "formula": "C₁₈H₂₂ClN₃O₄S",
+    "composition": { "C": 18, "H": 22, "Cl": 1, "N": 3, "O": 4, "S": 1 },
+    "molarMass": "411.90 g/mol",
+    "category": "Modulateur sélectif S1P1",
+    "summary": "Favorise la réduction de la charge lésionnelle cérébrale dans la sclérose en plaques.",
+    "occurrence": "Synthétique.",
+    "applications": ["Neurologie clinique"]
+  },
+  {
+    "name": "Sépimostat Mesylate",
+    "formula": "C₂₀H₂₀N₆O₅S",
+    "composition": { "C": 20, "H": 20, "N": 6, "O": 5, "S": 1 },
+    "molarMass": "456.48 g/mol",
+    "category": "Inhibiteur de protéase",
+    "summary": "Utilisé pour traiter la pancréatite aiguë en inhibant diverses enzymes protéolytiques.",
+    "occurrence": "Synthétique.",
+    "applications": ["Gastro-entérologie"]
+  },
+  {
+    "name": "Lénacapavir",
+    "formula": "C₂₅H₁₇ClF₁₀N₇O₃S",
+    "composition": { "C": 25, "H": 17, "Cl": 1, "F": 10, "N": 7, "O": 3, "S": 1 },
+    "molarMass": "725.96 g/mol",
+    "category": "Inhibiteur de capside du VIH-1",
+    "summary": "Le premier traitement injectable tous les six mois pour les personnes vivant avec un VIH multirésistant.",
+    "occurrence": "Synthétique.",
+    "applications": ["Infectiologie", "VIH"]
+  },
+  {
+    "name": "Teclistamab",
+    "formula": "C₆₄₇₂H₁₀₀₁₂N₁₇₁₂O₂₀₁₆S₄₄",
+    "composition": { "C": 6472, "H": 10012, "N": 1712, "O": 2016, "S": 44 },
+    "molarMass": "~145000 g/mol",
+    "category": "Anticorps bispécifique",
+    "summary": "Cible le BCMA et le CD3 pour diriger les lymphocytes T contre les cellules du myélome multiple.",
+    "occurrence": "Biotechnologie.",
+    "applications": ["Oncologie"]
+  },
+  {
+    "name": "Tirzépatide",
+    "formula": "C₂₂₅H₃₄₈N₄₈O₆₈",
+    "composition": { "C": 225, "H": 348, "N": 48, "O": 68 },
+    "molarMass": "4813.53 g/mol",
+    "category": "Agoniste GIP/GLP-1",
+    "summary": "Double agoniste révolutionnaire utilisé pour le traitement du diabète de type 2 et la gestion du poids.",
+    "occurrence": "Synthétique.",
+    "applications": ["Endocrinologie", "Obésité"]
+  },
+  {
+    "name": "Cénégermine",
+    "formula": "C₁₃₂₀H₂₀₃₆N₃₈₀O₈₉₀S₂₀",
+    "composition": { "C": 1320, "H": 2036, "N": 380, "O": 890, "S": 20 },
+    "molarMass": "~30000 g/mol",
+    "category": "Facteur de croissance nerveux humain",
+    "summary": "Produit sous forme de collyre pour traiter la kératite neurotrophique sévère.",
+    "occurrence": "Recombinant.",
+    "applications": ["Ophtalmologie"]
+  },
+  {
+    "name": "Octakis((trifluorométhylbenzyle propyl)silsesquioxane) (Version UV)",
+    "formula": "C₇₂H₈₈F₂₄O₁₂Si₈",
+    "composition": { "C": 72, "H": 88, "F": 24, "O": 12, "Si": 8 },
+    "molarMass": "~1700 g/mol",
+    "category": "Matériau d'étanchéité pour photovoltaïque",
+    "summary": "Offre une protection durable contre l'humidité et les rayons UV pour les panneaux solaires.",
+    "occurrence": "Synthétique.",
+    "applications": ["Énergies renouvelables"]
+  },
+  { "name": "Abrocitinib", "formula": "C₁₄H₂₁N₅O₂S", "composition": { "C": 14, "H": 21, "N": 5, "O": 2, "S": 1 }, "molarMass": "323.41 g/mol", "category": "JAK1 Inhibitor", "summary": "Oral treatment for moderate-to-severe atopic dermatitis.", "occurrence": "Synthetic", "applications": ["Dermatology"] },
+  { "name": "Bimékizumab", "formula": "C₆₄₈₀H₉₉₉₀N₁₇₁₆O₂₀₂₈S₄₆", "composition": { "C": 6480, "H": 9990, "N": 1716, "O": 2028, "S": 46 }, "molarMass": "~150000 g/mol", "category": "IL-17A/F Inhibitor", "summary": "Monoclonal antibody for treatment of plaque psoriasis.", "occurrence": "Biotech", "applications": ["Autoimmune diseases"] },
+  { "name": "Barivirat", "formula": "C₁₉H₂₄N₄O₄", "composition": { "C": 19, "H": 24, "N": 4, "O": 4 }, "molarMass": "372.42 g/mol", "category": "Inhibiteur viral expérimental", "summary": "Cible la fusion membranaire des virus enveloppés.", "occurrence": "Synthétique", "applications": ["Recherche virale"] },
+  { "name": "DaxibotulinumtoxinA", "formula": "C₆₇₆₀H₁₀₄₄₀N₁₇₄₀O₂₀₁₀S₃₂", "composition": { "C": 6760, "H": 10440, "N": 1740, "O": 2010, "S": 32 }, "molarMass": "~150000 g/mol", "category": "Neuromodulateur", "summary": "Toxine botulique de type A à longue durée d'action.", "occurrence": "Biotech", "applications": ["Esthétique", "Neurologie"] },
+  { "name": "Efgartigimod Alfa", "formula": "C₂₁₀₀H₃₂₀₀N₅₈₀O₆₄₀S₁₈", "composition": { "C": 2100, "H": 3200, "N": 580, "O": 640, "S": 18 }, "molarMass": "~54000 g/mol", "category": "FcRn Antagonist", "summary": "Used for treatment of generalized myasthenia gravis.", "occurrence": "Biotech", "applications": ["Neuromuscular"] },
+  { "name": "Fezolinetant", "formula": "C₁₆H₁₅F₃N₄OS", "composition": { "C": 16, "H": 15, "F": 3, "N": 4, "O": 1, "S": 1 }, "molarMass": "368.38 g/mol", "category": "NK3 Receptor Antagonist", "summary": "Non-hormonal treatment for hot flashes due to menopause.", "occurrence": "Synthetic", "applications": ["Women's Health"] },
+  { "name": "Ganténérumab", "formula": "C₆₅₀₀H₁₀₁₀₀N₁₇₅₀O₂₀𝟓𝟎S₄₈", "composition": { "C": 6500, "H": 10100, "N": 1750, "O": 2050, "S": 48 }, "molarMass": "~146000 g/mol", "category": "Amyloid Beta Antibody", "summary": "Investigational treatment for Alzheimer's disease.", "occurrence": "Biotech", "applications": ["Neurodegeneration"] },
+  { "name": "Hémanthamine", "formula": "C₁₇H₁₉NO₄", "composition": { "C": 17, "H": 19, "N": 1, "O": 4 }, "molarMass": "301.34 g/mol", "category": "Alcaloïde d'Amaryllidaceae", "summary": "Possède des propriétés anticancéreuses puissantes en inhibant le ribosome.", "occurrence": "Naturel (Plantes)", "applications": ["Pharmacognosie"] },
+  { "name": "Ivanécasvir", "formula": "C₃₆H₄₄F₂N₆O₇S", "composition": { "C": 36, "H": 44, "F": 2, "N": 6, "O": 7, "S": 1 }, "molarMass": "738.85 g/mol", "category": "HCV NS5A Inhibitor", "summary": "Potent inhibitor showing high barrier to resistance in hepatitis C.", "occurrence": "Synthetic", "applications": ["Infectious Disease"] },
+  { "name": "Jedoxime", "formula": "C₈H₁₀N₂O₃", "composition": { "C": 8, "H": 10, "N": 2, "O": 3 }, "molarMass": "182.18 g/mol", "category": "Réactivateur d'acétylcholinestérase", "summary": "Utilisé en cas d'empoisonnement aux organophosphorés.", "occurrence": "Synthétique", "applications": ["Toxicologie"] },
+  { "name": "Krazati (Adagrasib)", "formula": "C₃₂H₃₅ClF₂N₇O₂", "composition": { "C": 32, "H": 35, "Cl": 1, "F": 2, "N": 7, "O": 2 }, "molarMass": "604.13 g/mol", "category": "KRAS G12C Inhibitor", "summary": "Targeted therapy for non-small cell lung cancer.", "occurrence": "Synthetic", "applications": ["Oncology"] },
+  { "name": "Lisocabtagene Maraleucel", "formula": "Cellule T modifiée", "composition": { "C": 1 }, "molarMass": "0 g/mol", "category": "CAR-T Therapy", "summary": "Personalized immunotherapy for large B-cell lymphoma.", "occurrence": "Biotech (Cellular)", "applications": ["Immunotherapy"] },
+  { "name": "Mavacamten", "formula": "C₁₅H₁₉N₃O₂", "composition": { "C": 15, "H": 19, "N": 3, "O": 2 }, "molarMass": "273.33 g/mol", "category": "Cardiac Myosin Inhibitor", "summary": "First-in-class treatment for obstructive hypertrophic cardiomyopathy.", "occurrence": "Synthetic", "applications": ["Cardiology"] },
+  { "name": "Nirésévimab", "formula": "C₆₄𝟗𝟔H₉𝟗𝟒𝟒N₁₇₁𝟔O₂₀₁𝟒S₄₈", "composition": { "C": 6496, "H": 9944, "N": 1716, "O": 2014, "S": 48 }, "molarMass": "~147000 g/mol", "category": "RSV Antibody", "summary": "Prevention of respiratory syncytial virus (RSV) in infants.", "occurrence": "Biotech", "applications": ["Pediatrics"] },
+  { "name": "Odevixibat", "formula": "C₃₇H₄₈N₄O₈S₂", "composition": { "C": 37, "H": 48, "N": 4, "O": 8, "S": 2 }, "molarMass": "740.93 g/mol", "category": "IBAT Inhibitor", "summary": "Treatment for pruritus in progressive familial intrahepatic cholestasis.", "occurrence": "Synthetic", "applications": ["Hepatology"] },
+  { "name": "Pélicansérog", "formula": "C₁₉H₂₀N₂O₃", "composition": { "C": 19, "H": 20, "N": 2, "O": 3 }, "molarMass": "324.37 g/mol", "category": "Sérotoninergique", "summary": "Étudié pour les troubles du système nerveux central.", "occurrence": "Synthétique", "applications": ["Psychiatrie"] },
+  { "name": "Relugolix", "formula": "C₁₇H₁₈F₂N₄O₅S", "composition": { "C": 17, "H": 18, "F": 2, "N": 4, "O": 5, "S": 1 }, "molarMass": "428.41 g/mol", "category": "GnRH Antagonist", "summary": "Used for prostate cancer and uterine fibroids.", "occurrence": "Synthetic", "applications": ["Urology", "Gynecology"] },
+  { "name": "Sotatércept", "formula": "Protéine de fusion", "composition": { "C": 1 }, "molarMass": "~90000 g/mol", "category": "Activin Receptor Ligand Trap", "summary": "Promising treatment for pulmonary arterial hypertension.", "occurrence": "Biotech", "applications": ["Pulmonology"] },
+  { "name": "Teclistamab", "formula": "C₆₄₇₂H₁₀₀₁₂N₁₇₁₂O₂₀₁₆S₄₄", "composition": { "C": 6472, "H": 10012, "N": 1712, "O": 2016, "S": 44 }, "molarMass": "~145000 g/mol", "category": "Bispecific Antibody", "summary": "T-cell engaging therapy for multiple myeloma.", "occurrence": "Biotech", "applications": ["Oncology"] },
+  { "name": "Ubrogépant", "formula": "C₂₉H₂₈F₃N₅O₃", "composition": { "C": 29, "H": 28, "F": 3, "N": 5, "O": 3 }, "molarMass": "551.56 g/mol", "category": "CGRP Antagonist (Gepant)", "summary": "Oral treatment for acute migraine attacks.", "occurrence": "Synthetic", "applications": ["Neurology"] },
+  { "name": "Vutrisiran", "formula": "C₅₃₀H₆₇₂N₁₇₀O₃₁₆P₄₀S₄₀", "composition": { "C": 530, "H": 672, "N": 170, "O": 316, "P": 40, "S": 40 }, "molarMass": "~16000 g/mol", "category": "siRNA", "summary": "Indicated for the treatment of polyneuropathy of hereditary transthyretin-mediated amyloidosis.", "occurrence": "Synthetic (RNAi)", "applications": ["Genetics"] },
+  { "name": "Xanomeline", "formula": "C₁₄H₂₃N₃OS", "composition": { "C": 14, "H": 23, "N": 3, "O": 1, "S": 1 }, "molarMass": "281.42 g/mol", "category": "Muscarinic Agonist", "summary": "Targeted for treatment of symptoms in schizophrenia and Alzheimer's.", "occurrence": "Synthetic", "applications": ["CNS"] },
+  { "name": "Yttrium-90 Ibritumomab Tiuxetan", "formula": "Complexé", "composition": { "Y": 1 }, "molarMass": "~150000 g/mol", "category": "Radioimmunotherapy", "summary": "Used to treat certain types of non-Hodgkin's lymphoma.", "occurrence": "Radiotech", "applications": ["Cancer therapy"] },
+  { "name": "Zanubrutinib", "formula": "C₂₇H₂₉N₅O₃", "composition": { "C": 27, "H": 29, "N": 5, "O": 3 }, "molarMass": "471.55 g/mol", "category": "BTK Inhibitor", "summary": "Highly selective inhibitor for various B-cell malignancies.", "occurrence": "Synthetic", "applications": ["Hematology"] },
+  { "name": "Aducanumab", "formula": "C₆₄₇₈H₁₀₀₁₄N₁₇₄₈O₂₀₁₂S₄₆", "composition": { "C": 6478, "H": 10014, "N": 1748, "O": 2012, "S": 46 }, "molarMass": "~146000 g/mol", "category": "Anti-Amyloid Antibody", "summary": "Controversial first-in-class treatment for Alzheimer's disease pathology.", "occurrence": "Biotech", "applications": ["Neurology"] },
+  { "name": "Berotralstat", "formula": "C₂₂H₁₈F₃N₃O", "composition": { "C": 22, "H": 18, "F": 3, "N": 3, "O": 1 }, "molarMass": "397.39 g/mol", "category": "Kallikrein Inhibitor", "summary": "Oral prophylaxis for hereditary angioedema.", "occurrence": "Synthetic", "applications": ["Immunology"] },
+  { "name": "Cabotégravir", "formula": "C₁₉H₁₇F₂N₃O₅", "composition": { "C": 19, "H": 17, "F": 2, "N": 3, "O": 5 }, "molarMass": "405.35 g/mol", "category": "Integrase Inhibitor", "summary": "Long-acting injectable and oral antiretroviral for HIV PrEP and treatment.", "occurrence": "Synthetic", "applications": ["Infectious Diseases"] },
+  { "name": "Difelikefalin", "formula": "C₃₆H₅₃N₇O₆", "composition": { "C": 36, "H": 53, "N": 7, "O": 6 }, "molarMass": "679.85 g/mol", "category": "Kappa Opioid Receptor Agonist", "summary": "Peripherally-acting agonist for treatment of chronic pruritus associated with kidney disease.", "occurrence": "Synthetic", "applications": ["Nephrology"] },
+  { "name": "Evocalcet", "formula": "C₂₁H₂₅N₃O", "composition": { "C": 21, "H": 25, "N": 3, "O": 1 }, "molarMass": "335.44 g/mol", "category": "Calcimimetic", "summary": "Second-generation agent for secondary hyperparathyroidism.", "occurrence": "Synthetic", "applications": ["Metabolic"] },
+  { "name": "Fidaxomicine", "formula": "C₅₂H₇₄Cl₂O₁₈", "composition": { "C": 52, "H": 74, "Cl": 2, "O": 18 }, "molarMass": "1058.04 g/mol", "category": "Macrocyclic Antibiotic", "summary": "First-line treatment for Clostridioides difficile infection.", "occurrence": "Fermentation", "applications": ["Gastroenterology"] },
+  { "name": "Givosiran", "formula": "C₅₂₄H₇₀₄N₁₇₅O₃₁₆P₄₀S₄₀", "composition": { "C": 524, "H": 704, "N": 175, "O": 316, "P": 40, "S": 40 }, "molarMass": "~16500 g/mol", "category": "siRNA", "summary": "Precision therapy for acute hepatic porphyria.", "occurrence": "Synthetic", "applications": ["Rare Diseases"] },
+  { "name": "Hydrate de Gaz (Méthane Clathrate)", "formula": "4CH₄·23H₂O", "composition": { "C": 4, "H": 62, "O": 23 }, "molarMass": "478.5 g/mol", "category": "Clathrate", "summary": "Cages de glace emprisonnant du méthane, présentes au fond des océans.", "occurrence": "Naturel", "applications": ["Énergie", "Géologie"] },
+  { "name": "Inébili-zumab", "formula": "C₆₄𝟗𝟐H₁₀₀𝟒𝟒N₁₇₁𝟒O₂₀𝟒𝟒S₄₆", "composition": { "C": 6492, "H": 10044, "N": 1714, "O": 2044, "S": 46 }, "molarMass": "~148000 g/mol", "category": "CD19 Antibody", "summary": "Indicated for neuromyelitis optica spectrum disorder (NMOSD).", "occurrence": "Biotech", "applications": ["Neurology"] },
+  { "name": "Légionelline", "formula": "C₁₈H₂₀N₂O₃", "composition": { "C": 18, "H": 20, "N": 2, "O": 3 }, "molarMass": "312.36 g/mol", "category": "Sidérophore bactérien", "summary": "Utilisé par Legionella pneumophila pour l'acquisition du fer.", "occurrence": "Naturel", "applications": ["Microbiologie"] },
+  { "name": "Monométhylfumarate", "formula": "C₅H₆O₄", "composition": { "C": 5, "H": 6, "O": 4 }, "molarMass": "130.10 g/mol", "category": "Nrf2 Activator", "summary": "Active metabolite of diroximel fumarate, used in MS treatment.", "occurrence": "Synthetic", "applications": ["Neurology"] },
+  { "name": "Nivolumab", "formula": "C₆₃₆₂H₉𝟖𝟔𝟐N₁𝟕𝟏𝟐O𝟏𝟗𝟗𝟓S₄𝟒", "composition": { "C": 6362, "H": 9862, "N": 1712, "O": 1995, "S": 44 }, "molarMass": "~143000 g/mol", "category": "PD-1 Inhibitor", "summary": "Checkpoint inhibitor used across many cancer types.", "occurrence": "Biotech", "applications": ["Immuno-Oncology"] },
+  { "name": "Onalézizumab", "formula": "C₆𝟒𝟖𝟒H𝟗𝟗𝟖𝟒N₁𝟕𝟏𝟔O𝟐𝟎𝟑𝟎S𝟒𝟔", "composition": { "C": 6484, "H": 9984, "N": 1716, "O": 2030, "S": 46 }, "molarMass": "~149000 g/mol", "category": "Modulateur IgE", "summary": "Traitement de l'asthme allergique sévère.", "occurrence": "Biotech", "applications": ["Allergologie"] },
+  { "name": "Péminit-inib", "formula": "C₂₄H₂₇N₅O₃", "composition": { "C": 24, "H": 27, "N": 5, "O": 3 }, "molarMass": "433.51 g/mol", "category": "FGFR Inhibitor", "summary": "Selective inhibitor for cholangiocarcinoma with FGFR2 fusions.", "occurrence": "Synthetic", "applications": ["Oncology"] },
+  { "name": "Quétiapine Fumérate", "formula": "C₄₆H₅₄N₆O₈S₂", "composition": { "C": 46, "H": 54, "N": 6, "O": 8, "S": 2 }, "molarMass": "883.09 g/mol", "category": "Atypical Antipsychotic", "summary": "Commonly used for schizophrenia and bipolar disorder.", "occurrence": "Synthetic", "applications": ["Psychiatry"] },
+  { "name": "Rédasvir", "formula": "C₄₈H₅₈N₈O₈", "composition": { "C": 48, "H": 58, "N": 8, "O": 8 }, "molarMass": "875.02 g/mol", "category": "NS5A Inhibitor", "summary": "Direct-acting antiviral for chronic hepatitis C.", "occurrence": "Synthetic", "applications": ["Infectious Disease"] },
+  { "name": "Sultiam", "formula": "C₁₀H₁₄N₂O₄S₂", "composition": { "C": 10, "H": 14, "N": 2, "O": 4, "S": 2 }, "molarMass": "290.36 g/mol", "category": "Carbonic Anhydrase Inhibitor", "summary": "Anticonvulsant specifically used for Rolando epilepsy.", "occurrence": "Synthetic", "applications": ["Neurology"] },
+  { "name": "Tafamidis Méglumine", "formula": "C₂₁H₂₄Cl₂N₂O₈", "composition": { "C": 21, "H": 24, "Cl": 2, "N": 2, "O": 8 }, "molarMass": "503.33 g/mol", "category": "TTR Stabilizer", "summary": "Treats cardiomyopathy in transthyretin amyloidosis.", "occurrence": "Synthetic", "applications": ["Cardiology"] },
+  { "name": "Upadacitinib", "formula": "C₁₇H₁₉F₃N₆O", "composition": { "C": 17, "H": 19, "F": 3, "N": 6, "O": 1 }, "molarMass": "380.37 g/mol", "category": "JAK Inhibitor", "summary": "Once-daily oral treatment for rheumatoid arthritis and eczema.", "occurrence": "Synthetic", "applications": ["Rheumatology"] },
+  { "name": "Vantictumab", "formula": "C₆₄𝟕𝟎H𝟗𝟗𝟗𝟖N₁𝟕𝟐𝟔O𝟐𝟎𝟐𝟐S𝟒𝟖", "composition": { "C": 6470, "H": 9998, "N": 1726, "O": 2022, "S": 48 }, "molarMass": "~148000 g/mol", "category": "Wnt Pathway Inhibitor", "summary": "Anticorps expérimental ciblant la voie de signalisation Wnt.", "occurrence": "Biotech", "applications": ["Oncologie"] },
+  { "name": "Wocélat-inib", "formula": "C₂₂H₂₄N₄O₂", "composition": { "C": 22, "H": 24, "N": 4, "O": 2 }, "molarMass": "376.45 g/mol", "category": "Kinase Inhibitor", "summary": "Inhibiteur ciblé pour des pathologies prolifératives.", "occurrence": "Synthétique", "applications": ["Hématologie"] },
+  { "name": "Xentuzumab", "formula": "C₆𝟓𝟎𝟖H𝟗𝟗𝟗𝟒N₁𝟕𝟏𝟖O𝟐𝟎𝟑𝟔S𝟒𝟒", "composition": { "C": 6508, "H": 9994, "N": 1718, "O": 2036, "S": 44 }, "molarMass": "~150000 g/mol", "category": "IGF-1/2 Antibody", "summary": "Neutralisant pour les ligands IGF-1 et IGF-2.", "occurrence": "Biotech", "applications": ["Oncologie"] },
+  { "name": "Zalutumumab", "formula": "C₆𝟒𝟖𝟐H𝟗𝟗𝟖𝟔N₁𝟕𝟑𝟔O𝟐𝟎𝟐𝟎S𝟒𝟔", "composition": { "C": 6482, "H": 9986, "N": 1736, "O": 2020, "S": 46 }, "molarMass": "~147000 g/mol", "category": "EGFR Antibody", "summary": "Cible le récepteur du facteur de croissance épidermique.", "occurrence": "Biotech", "applications": ["Oncologie"] }
+];

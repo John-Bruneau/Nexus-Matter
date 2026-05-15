@@ -1,0 +1,20 @@
+// @ts-nocheck
+/**
+ * @copyright Sébastien John Bruneau
+ * Part 252 of the molecule library - Esters d'Arômes & Parfums de Synthèse.
+ * 10 molécules authentifiées.
+ */
+import { MoleculeDefinition } from '../../types/molecule';
+
+export const MOLECULES_P252: MoleculeDefinition[] = [
+  { "name": "Acétate d'Isoamyle", "formula": "C₇H₁₄O₂", "composition": { "C": 7, "H": 14, "O": 2 }, "summary": "L'arôme synthétique classique de la banane et du bonbon anglais.", "category": "Ester / Arôme", "molarMass": "130.18 g/mol", "safetyWarning": "Inflammable.", "manufacturing": "Estérification de l'alcool isoamylique.", "meltingPoint": "-78 °C", "boilingPoint": "142 °C", "occurrence": "Banane mûre, Papiers d'Arménie." },
+  { "name": "Butyrate d'Éthyle", "formula": "C₆H₁₂O₂", "composition": { "C": 6, "H": 12, "O": 2 }, "summary": "Ester à l'odeur très forte d'ananas, utilisé dans les jus d'orange industriels pour redonner du goût.", "category": "Arôme fruit", "molarMass": "116.16 g/mol", "safetyWarning": "N/A", "manufacturing": "Synthèse.", "meltingPoint": "-93 °C", "boilingPoint": "121 °C", "occurrence": "Ananas gris." },
+  { "name": "Anthranilate de Méthyle", "formula": "C₈H₉NO₂", "composition": { "C": 8, "H": 9, "N": 1, "O": 2 }, "summary": "L'arôme du raisin Concord et de la fleur d'oranger.", "category": "Ester aromatique", "molarMass": "151.16 g/mol", "safetyWarning": "N/A", "manufacturing": "Action du méthanol sur l'acide anthranilique.", "meltingPoint": "24 °C", "boilingPoint": "256 °C", "occurrence": "Jasmin, Raisin." },
+  { "name": "Formiate d'Éthyle", "formula": "C₃H₆O₂", "composition": { "C": 3, "H": 6, "O": 2 }, "summary": "Sent le rhum; détecté par les astronomes au centre de la galaxie dans des nuages interstellaires.", "category": "Arôme / Espace", "molarMass": "74.08 g/mol", "safetyWarning": "Très volatil.", "manufacturing": "Synthèse.", "meltingPoint": "-80 °C", "boilingPoint": "54 °C", "occurrence": "Framboises, Espace interstellaire." },
+  { "name": "Heptanoate d'Éthyle", "formula": "C₉H₁₈O₂", "composition": { "C": 9, "H": 18, "O": 2 }, "summary": "Ester à l'odeur de raisin et de cognac.", "category": "Arôme vin", "molarMass": "158.24 g/mol", "safetyWarning": "N/A", "manufacturing": "Synthèse.", "meltingPoint": "-66 °C", "boilingPoint": "189 °C", "occurrence": "Cerises." },
+  { "name": "Caproate d'Allyle", "formula": "C₉H₁₆O₂", "composition": { "C": 9, "H": 16, "O": 2 }, "summary": "Odeur caractéristique d'ananas gras et de bonbon.", "category": "Additif alimentaire", "molarMass": "156.22 g/mol", "safetyWarning": "N/A", "manufacturing": "Synthèse.", "meltingPoint": "N/A", "boilingPoint": "185 °C", "occurrence": "Pommes." },
+  { "name": "Propionate de Méthyle", "formula": "C₄H₈O₂", "composition": { "C": 4, "H": 8, "O": 2 }, "summary": "Odeur de rhum fruité.", "category": "Solvant / Arôme", "molarMass": "88.11 g/mol", "safetyWarning": "N/A", "manufacturing": "Synthèse.", "meltingPoint": "-87 °C", "boilingPoint": "80 °C", "occurrence": "Kiwis." },
+  { "name": "Salicylate d'Amyle", "formula": "C₁₂H₁₆O₃", "composition": { "C": 12, "H": 16, "O": 3 }, "summary": "Odeur d'orchidée et de trèfle sec, base de la famille 'Fougère' en parfumerie.", "category": "Parfumerie", "molarMass": "208.25 g/mol", "safetyWarning": "N/A", "manufacturing": "Synthèse.", "meltingPoint": "N/A", "boilingPoint": "277 °C", "occurrence": "Trèfle." },
+  { "name": "Acétate de Benzyle", "formula": "C₉H₁₀O₂", "composition": { "C": 9, "H": 10, "O": 2 }, "summary": "Principal constituant de l'arôme de jasmin.", "category": "Ester", "molarMass": "150.17 g/mol", "safetyWarning": "N/A", "manufacturing": "Synthèse.", "meltingPoint": "-51 °C", "boilingPoint": "212 °C", "occurrence": "Jasmin, Gardenia." },
+  { "name": "Arôme Fumée (Gaïacol)", "formula": "C₇H₈O₂", "composition": { "C": 7, "H": 8, "O": 2 }, "summary": "Responsable de l'odeur de fumée et de brûlé.", "category": "Composé phénolique", "molarMass": "124.14 g/mol", "safetyWarning": "N/A", "manufacturing": "Pyrolyse du bois.", "meltingPoint": "28 °C", "boilingPoint": "205 °C", "occurrence": "Fumée de bois, Whisky tourbé." }
+];

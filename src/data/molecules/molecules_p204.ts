@@ -1,0 +1,20 @@
+// @ts-nocheck
+/**
+ * @copyright Sébastien John Bruneau
+ * Part 204 of the molecule library - Arômes de Fruits & Esters Courants.
+ * 10 molécules authentifiées.
+ */
+import { MoleculeDefinition } from '../../types/molecule';
+
+export const MOLECULES_P204: MoleculeDefinition[] = [
+  { "name": "Acétate d'Isoamyle", "formula": "C₇H₁₄O₂", "composition": { "C": 7, "H": 14, "O": 2 }, "summary": "L'arôme caractéristique de la banane et du bonbon anglais.", "category": "Ester / Arôme", "molarMass": "130.18 g/mol", "safetyWarning": "Phéromone d'alerte pour les abeilles; peut provoquer des attaques.", "manufacturing": "Estérification de Fischer de l'alcool isoamylique.", "meltingPoint": "-78 °C", "boilingPoint": "142 °C", "occurrence": "Banane mûre." },
+  { "name": "Butanoate d'Éthyle", "formula": "C₆H₁₂O₂", "composition": { "C": 6, "H": 12, "O": 2 }, "summary": "Odeur fruitée d'ananas, utilisée en parfumerie et dans l'industrie alimentaire.", "category": "Arôme fruit", "molarMass": "116.16 g/mol", "safetyWarning": "Inflammable.", "manufacturing": "Synthèse.", "meltingPoint": "-93 °C", "boilingPoint": "121 °C", "occurrence": "Ananas, Fraises." },
+  { "name": "Propionate de Méthyle", "formula": "C₄H₈O₂", "composition": { "C": 4, "H": 8, "O": 2 }, "summary": "Odeur de rhum et de pomme.", "category": "Ester", "molarMass": "88.1 g/mol", "safetyWarning": "Inflammable.", "manufacturing": "Synthèse.", "meltingPoint": "-87 °C", "boilingPoint": "80 °C", "occurrence": "Baies, Pommes." },
+  { "name": "Anthranilate de Méthyle", "formula": "C₈H₉NO₂", "composition": { "C": 8, "H": 9, "N": 1, "O": 2 }, "summary": "Odeur de raisin Concord et de fleur d'oranger.", "category": "Arôme", "molarMass": "151.16 g/mol", "safetyWarning": "Peut irriter les yeux.", "manufacturing": "Synthèse.", "meltingPoint": "24 °C", "boilingPoint": "256 °C", "occurrence": "Raisin, Jasmin." },
+  { "name": "Octanoate d'Éthyle", "formula": "C₁₀H₂₀O₂", "composition": { "C": 10, "H": 20, "O": 2 }, "summary": "Odeur de vin et d'abricot.", "category": "Ester de vin", "molarMass": "172.26 g/mol", "safetyWarning": "N/A", "manufacturing": "Synthèse.", "meltingPoint": "-44 °C", "boilingPoint": "208 °C", "occurrence": "Vin, Poires." },
+  { "name": "Hexanoate d'Allyle", "formula": "C₉H₁₆O₂", "composition": { "C": 9, "H": 16, "O": 2 }, "summary": "Odeur intense d'ananas typique des chewing-gums.", "category": "Arôme industriel", "molarMass": "156.22 g/mol", "safetyWarning": "N/A", "manufacturing": "Synthèse.", "meltingPoint": "N/A", "boilingPoint": "190 °C", "occurrence": "Pommes." },
+  { "name": "Formiate d'Éthyle", "formula": "C₃H₆O₂", "composition": { "C": 3, "H": 6, "O": 2 }, "summary": "Odeur de framboises et de rhum; détecté dans les nuages de gaz galactiques.", "category": "Arôme / Astrochimie", "molarMass": "74.08 g/mol", "safetyWarning": "N/A", "manufacturing": "Synthèse.", "meltingPoint": "-80 °C", "boilingPoint": "54 °C", "occurrence": "Framboises, Voie Lactée (Sgr B2)." },
+  { "name": "Butanoate de Butyle", "formula": "C₈H₁₆O₂", "composition": { "C": 8, "H": 16, "O": 2 }, "summary": "Odeur d'ananas sauvage.", "category": "Ester", "molarMass": "144.21 g/mol", "safetyWarning": "N/A", "manufacturing": "Synthèse.", "meltingPoint": "-91 °C", "boilingPoint": "166 °C", "occurrence": "Ananas." },
+  { "name": "Acétate de Benzyle", "formula": "C₉H₁₀O₂", "composition": { "C": 9, "H": 10, "O": 2 }, "summary": "Principal constituant de l'arôme de jasmin.", "category": "Parfumerie", "molarMass": "150.17 g/mol", "safetyWarning": "Irritant.", "manufacturing": "Synthèse.", "meltingPoint": "-51 °C", "boilingPoint": "212 °C", "occurrence": "Jasmin, Gardénia." },
+  { "name": "Isopolysiloxane", "formula": "C₆H₁₈O₃Si₃", "composition": { "C": 6, "H": 18, "O": 3, "Si": 3 }, "summary": "Utilisé pour la fluidité des vernis à ongles et cosmétiques.", "category": "Silicone", "molarMass": "222.46 g/mol", "safetyWarning": "N/A", "manufacturing": "Polymérisation.", "meltingPoint": "N/A", "boilingPoint": "N/A", "occurrence": "Synthétique." }
+];

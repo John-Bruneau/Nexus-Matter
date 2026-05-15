@@ -1,0 +1,44 @@
+# Copyright Sébastien John Bruneau
+
+- Nexus Atomica - Tableau périodique interactif avancé pour chercheurs.
+Version: 1.0.2
+Date: 2026-05-13
+
+- Utiliser le français
+- S'assurer que le copyright de Sébastien John Bruneau soie présent
+- Regarder, Enregistre et garder les prompts a l'intérieur du fichier prompts_history.txt a la suit dans le fichier.
+- Regarder, Enregistré et garder les réponse des prompts a l'intérieur du fichier prompts_back_history.txt a la suit dans le fichier.
+- Informer a la fin de l'opération combien de tokens/jetons on été utilisé pour l'opération demander et les totaux entrant/sortant avec date et heures
+- Garder tout les messages de Gemini
+- Compacter le code qui contiens les molécules en fichiers thématiques majeurs au lieu de partitions numérotées, pour réduire le nombre de fichiers tout en gardant une taille gérable par fichier.
+- Ne jamais supprimer uniform.txt, prompts_history.txt et prompts_back_history.txt, simplement metre a jour
+- Se servir du fichier uniform.txt comme référence d'instructions
+- Vérifier si tout les instructions précédente sont dans le fichier uniform.txt, si il ne le sont pas ajouter les.
+-- Super-Bibliothèque de Molécules : ~260 000 molécules brutes, ~256 000 uniques (après déduplication intelligente par nom autorisant les isomères).
+  (Alcanes, Alcènes, Alkynes, Alcools, Acides, Amines jusqu'à C1000, Esters C1-C200 x C1-C200, Amides C1-C100 x C1-C200, Éthers asymétriques matriciels, Cétones asymétriques, Sulfoxydes, Sulfones, Imines, Hydrazones, Thiols et Sulfures matriciels, E-numbers E100-E1500, médicaments complexes, hormones, biomolécules, solvants, minéraux complexes, agents de parfumerie, organométalliques, carbonyles, colorants, pigments, organosiliciés, explosifs, oxydes de terres rares, hydrates, alcanes ramifiés, antibiotiques avancés, antiviraux, complexes de coordination, phénols alkylés, antirétroviraux, pharmaceutiques modernes, réactifs ADN, sucres complexes, acides aminés protégés, méga-alcanes jusqu'à C1000, catalyseurs organométalliques avancés, isotopes moléculaires, lipides complexes, pesticides, herbicides, hormones stéroïdiennes, semi-conducteurs organiques, vitamines, terpènes, réactifs de synthèse organique, alcaloïdes complexes, agents de contraste radiologiques, surfactants industriels, nanomatériaux, complexes carbonyles, fragrances de luxe).
+-101, MIL-100, DUT-6, PCN-222, MIL-125, ZIF-67, DUT-5, CAU-10, ZIF-11, ZIF-7, ZIF-90, PCN-224, MOF-801, NU-1200, ZIF-65, ZIF-12, DUT-67, MIL-160, ZIF-L, ZIF-62)).
+ Chaque molécule inclut désormais des détails sur sa fabrication, ses températures caractéristiques (fusion/ébullition) et son occurrence naturelle ou industrielle. Déduplication par nom pour préserver les isomères réels.
+- Panneau d'informations pour molécules : Les molécules dans la bibliothèque sont désormais cliquables et ouvrent un panneau détaillé avec résumé, applications et composition. Un système de pagination progressive est utilisé pour les ~256k molécules uniques finales.
+- Copyright : Sébastien John Bruneau est présent dans tous les fichiers majeurs.
+- Réorganisation : Le code est segmenté en sous-dossiers fonctionnels (molecules, periodic-table, research, comparison, dictionary) et la bibliothèque de molécules est centralisée dans `/src/data/molecules/index.ts` pour une meilleure maintenabilité.
+- Historique des Prompts : Enregistrement systématique dans prompts_history.txt et prompts_back_history.txt.
+- Audit Molaire : Calcul automatique et précis des masses molaires au millième.
+- Intégrité des Données : Validation syntaxique rigoureuse de la Super-Bibliothèque. La déduplication par NOM est active pour autoriser les isomères réels (même formule, nom différent).
+- Architecture Massive : Importation automatique par "Glob Pattern" dans `/src/data/molecules/`.
+- Mise à jour UI1 : Tableau périodique avec bordures colorées, légende, et lueur dynamique dans les modales.
+- Path : Données moléculaires consolidées dans `/src/data/molecules/chemistry_*.ts` (Pharma, Industrial, Natural, Research, Minerals, Polymers).
+- Réorganisation Massive : Fusion des composants UI fragmentés en fichiers thématiques consolidés (PeriodicTable.tsx, MoleculeBuilder.tsx, PolymerView.tsx, ResearchHub.tsx).
+- Centre de Recherche Nexus : Intégration du Comparateur et du Dictionnaire en tant qu'onglets au sein du ResearchHub pour simplifier la navigation et réduire le nombre de fichiers.
+- Expansion Polymères : Catalogue enrichi avec des polymères de haute performance (PEEK, PPS, Kevlar 49) et biopolymères (Chitosane, PHB), incluant des constantes physiques détaillées.
+- Outils de Laboratoire Avancés : 
+  - Calculateur de Masse Molaire & Analyse Centésimale (MoleculeBuilder).
+  - Simulateur de Propriétés Mécaniques ( Traction Stress-Strain) pour les polymères (PolymerView).
+  - Calculateur de Désintégration Radioactive pour les isotopes (PeriodicTable).
+  - Convertisseur Scientifique Universel de Précision (ResearchHub).
+- Nettoyage : Suppression des fichiers et dossiers redondants après consolidation pour une structure projet ultra-propre.
+
+Instructions de Design UI1 :
+- Tableau périodique : Bordures colorées par catégorie (Red, Orange, Yellow, Green, Cyan, Blue, Purple, Pink, Indigo).
+- Légende : Présence systématique du composant `CategoryLegend` sous le tableau.
+- Modale Élément : Effet de lueur (glow) et bordures colorées dynamiques basées sur la catégorie de l'élément.
+- Path : Les données moléculaires doivent impérativement résider dans `/src/data/molecules/`.

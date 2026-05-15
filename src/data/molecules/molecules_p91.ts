@@ -1,0 +1,22 @@
+import { MoleculeDefinition } from '../../types/molecule';
+
+/**
+ * Super-Bibliothèque de Molécules - Série P91
+ * Focus: Pharmacopée Mondiale et Médicaments Célèbres.
+ * Copyright Sébastien John Bruneau
+ */
+export const MOLECULES_P91: MoleculeDefinition[] = [
+  { "name": "Simvastatine", "formula": "C₂₅H₃₈O₅", "composition": { "C": 25, "H": 38, "O": 5 }, "molarMass": "418.57 g/mol", "category": "Statine", "summary": "Médicament de première ligne pour abaisser le cholestérol LDL.", "occurrence": "Synthétique (dérivé fongique)", "applications": ["Cardiologie"] },
+  { "name": "Atorvastatine", "formula": "C₃₃H₃₅FN₂O₅", "composition": { "C": 33, "H": 35, "F": 1, "N": 2, "O": 5 }, "molarMass": "558.64 g/mol", "category": "Statine", "summary": "L'un des médicaments les plus vendus au monde pour le traitement de l'hypercholestérolémie.", "occurrence": "Synthétique", "applications": ["Cardiologie"] },
+  { "name": "Lévothyroxine", "formula": "C₁₅H₁₁I₄NO₄", "composition": { "C": 15, "H": 11, "I": 4, "N": 1, "O": 4 }, "molarMass": "776.87 g/mol", "category": "Hormone thyroïdienne", "summary": "Forme synthétique de la thyroxine (T4) utilisée pour l'hypothyroïdie.", "occurrence": "Synthétique", "applications": ["Endocrinologie"] },
+  { "name": "Metformine", "formula": "C₄H₁₁N₅", "composition": { "C": 4, "H": 11, "N": 5 }, "molarMass": "129.16 g/mol", "category": "Biguanide", "summary": "Traitement standard de première intention pour le diabète de type 2.", "occurrence": "Synthétique", "applications": ["Diabétologie"] },
+  { "name": "Lisinopril", "formula": "C₂₁H₃₁N₃O₅", "composition": { "C": 21, "H": 31, "N": 3, "O": 5 }, "molarMass": "405.49 g/mol", "category": "Inhibiteur de l'ECA", "summary": "Utilisé pour traiter l'hypertension et l'insuffisance cardiaque.", "occurrence": "Synthétique", "applications": ["Hypertension"] },
+  { "name": "Amlodipine", "formula": "C₂₀H₂₅ClN₂O₅", "composition": { "C": 20, "H": 25, "Cl": 1, "N": 2, "O": 5 }, "molarMass": "408.88 g/mol", "category": "Inhibiteur calcique", "summary": "Médicament utilisé pour abaisser la pression artérielle et prévenir l'angine de poitrine.", "occurrence": "Synthétique", "applications": ["Cardiologie"] },
+  { "name": "Oméprazole", "formula": "C₁₇H₁₉N₃O₃S", "composition": { "C": 17, "H": 19, "N": 3, "O": 3, "S": 1 }, "molarMass": "345.42 g/mol", "category": "Inhibiteur de la pompe à protons", "summary": "Réduit la sécrétion d'acide gastrique, traite le reflux et les ulcères.", "occurrence": "Synthétique", "applications": ["Gastro-entérologie"] },
+  { "name": "Azithromycine", "formula": "C₃₈H₇₂N₂O₁₂", "composition": { "C": 38, "H": 72, "N": 2, "O": 12 }, "molarMass": "748.98 g/mol", "category": "Macrolide", "summary": "Antibiotique à large spectre utilisé pour les infections respiratoires et cutanées.", "occurrence": "Synthétique", "applications": ["Antibiotique"] },
+  { "name": "Ciprofloxacine", "formula": "C₁₇H₁₈FN₃O₃", "composition": { "C": 17, "H": 18, "F": 1, "N": 3, "O": 3 }, "molarMass": "331.34 g/mol", "category": "Fluoroquinolone", "summary": "Antibiotique puissant utilisé pour les infections urinaires et abdominales.", "occurrence": "Synthétique", "applications": ["Antibiotique"] },
+  { "name": "Amoxicilline", "formula": "C₁₆H₁₉N₃O₅S", "composition": { "C": 16, "H": 19, "N": 3, "O": 5, "S": 1 }, "molarMass": "365.40 g/mol", "category": "Pénicilline", "summary": "L'un des antibiotiques les plus couramment prescrits, notamment en pédiatrie.", "occurrence": "Semi-synthétique", "applications": ["Antibiotique"] },
+  { "name": "Céphalexine", "formula": "C₁₆H₁₇N₃O₄S", "composition": { "C": 16, "H": 17, "N": 3, "O": 4, "S": 1 }, "molarMass": "347.39 g/mol", "category": "Céphalosporine", "summary": "Antibiotique utilisé pour traiter diverses infections bactériennes.", "occurrence": "Synthétique", "applications": ["Antibiotique"] },
+  { "name": "Warfarine", "formula": "C₁₉H₁₆O₄", "composition": { "C": 19, "H": 16, "O": 4 }, "molarMass": "308.33 g/mol", "category": "Anticoagulant", "summary": "Empêche la formation de caillots sanguins; utilisée primitivement comme mort-aux-rats.", "occurrence": "Synthétique", "applications": ["Hématologie", "Prévention d'AVC"] },
+  { "name": "Digoxine", "formula": "C₄₁H₆₄O₁₄", "composition": { "C": 41, "H": 64, "O": 14 }, "molarMass": "780.94 g/mol", "category": "Glycoside cardiaque", "summary": "Augmente la force de contraction du cœur, issue de la digitale.", "occurrence": "Digitalis lanata.", "applications": ["Cardiologie", "Insuffisance cardiaque"] }
+];

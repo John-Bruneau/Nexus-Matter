@@ -1,0 +1,272 @@
+import { MoleculeDefinition } from '../../types/molecule';
+
+/**
+ * Super-Bibliothèque de Molécules - Série P62
+ * Focus: Organocatalyse, Pérovskites photovoltaïques et Matériaux Optiques.
+ * Copyright Sébastien John Bruneau
+ */
+export const MOLECULES_P62: MoleculeDefinition[] = [
+  {
+    "name": "Catalyseur de Jacobsen (Version Mn)",
+    "formula": "C₃₆H₅₂ClMnN₂O₂",
+    "composition": { "C": 36, "H": 52, "Cl": 1, "Mn": 1, "N": 2, "O": 2 },
+    "molarMass": "635.20 g/mol",
+    "category": "Catalyseur d'époxylation asymétrique",
+    "summary": "Permet la synthèse de médicaments optiquement purs avec une haute sélectivité.",
+    "occurrence": "Synthétique.",
+    "applications": ["Pharmacie", "Chimie fine"]
+  },
+  {
+    "name": "Périodinane de Dess-Martin (DMP)",
+    "formula": "C₁₃H₁₃IO₈",
+    "composition": { "C": 13, "H": 13, "I": 1, "O": 8 },
+    "molarMass": "424.14 g/mol",
+    "category": "Agent d'oxydation doux",
+    "summary": "Oxydant hypervalent d'iode utilisé pour convertir les alcools en aldéhydes/cétones sans sur-oxydation.",
+    "occurrence": "Synthétique.",
+    "applications": ["Synthèse totale de produits naturels"]
+  },
+  {
+    "name": "Pérovskite de Bromure de Méthylammonium et de Plomb (MAPbBr₃)",
+    "formula": "CH₆BrN₃Pb", // Simplifié pour framework (CH3NH3PbBr3)
+    "composition": { "C": 1, "H": 6, "N": 1, "Pb": 1, "Br": 3 },
+    "molarMass": "479.03 g/mol",
+    "category": "Semi-conducteur photovoltaïque",
+    "summary": "Matériau pérovskite utilisé pour les cellules solaires à haut rendement et les LEDs vertes.",
+    "occurrence": "Synthétique.",
+    "applications": ["Énergie solaire de 3ème génération"]
+  },
+  {
+    "name": "Niraparib Citrate",
+    "formula": "C₂₅H₂₇N₃O₈",
+    "composition": { "C": 25, "H": 27, "N": 3, "O": 8 },
+    "molarMass": "497.50 g/mol",
+    "category": "Inhibiteur de PARP",
+    "summary": "Empêche la réparation de l'ADN dans les cellules cancéreuses, induisant leur mort (létalité synthétique).",
+    "occurrence": "Synthétique.",
+    "applications": ["Cancer de l'ovaire", "Oncologie"]
+  },
+  {
+    "name": "Octakis((pentylaminoformylpropyl)silsesquioxane)",
+    "formula": "C₇₂H₁₄₀N₈O₂₀Si₈",
+    "composition": { "C": 72, "H": 140, "N": 8, "O": 20, "Si": 8 },
+    "molarMass": "~1650 g/mol",
+    "category": "Additif pour textiles techniques autonettoyants",
+    "summary": "Crée une barrière nanométrique hydrophobe et oléophobe permanente sur les fibres.",
+    "occurrence": "Synthétique.",
+    "applications": ["Sport de haute performance", "Uniformes militaires"]
+  },
+  {
+    "name": "Séléniure de Lanthane et de Néodyme (La₀.𝟔Nd₀.𝟒Se₂)",
+    "formula": "LaNdSe₄",
+    "composition": { "La": 0.6, "Nd": 0.4, "Se": 2 },
+    "molarMass": "~311 g/mol",
+    "category": "Luminophore infrarouge pour imagerie",
+    "summary": "Optimisé pour la pénétration tissulaire profonde en imagerie médicale bio-photonique.",
+    "occurrence": "Synthétique.",
+    "applications": ["Diagnostic in vivo"]
+  },
+  {
+    "name": "Borure de Chrome et de Cobalt dopé au Molybdène",
+    "formula": "CrCoMoB₂",
+    "composition": { "Cr": 1, "Co": 1, "Mo": 0.1, "B": 2 },
+    "molarMass": "~141 g/mol",
+    "category": "Alliage super-dur pour outils de coupe",
+    "summary": "Offre une résistance supérieure au fluage à haute vitesse de rotation.",
+    "occurrence": "Synthétique.",
+    "applications": ["Usinage de précision"]
+  },
+  {
+    "name": "Lumatepérone Tosylate",
+    "formula": "C₃₁H₃₅FN₄O₄S",
+    "composition": { "C": 31, "H": 35, "F": 1, "N": 4, "O": 4, "S": 1 },
+    "molarMass": "578.70 g/mol",
+    "category": "Antipsychotique atypique",
+    "summary": "Modulateur des systèmes dopaminergiques, sérotoninergiques et glutamatergiques.",
+    "occurrence": "Synthétique.",
+    "applications": ["Schizophrénie", "Troubles bipolaires"]
+  },
+  {
+    "name": "Téravancine",
+    "formula": "C₈₀H₈₄Cl₂N₁₁O₂₈P",
+    "composition": { "C": 80, "H": 84, "Cl": 2, "N": 11, "O": 28, "P": 1 },
+    "molarMass": "1755.53 g/mol",
+    "category": "Antibiotique lipoglycopeptide",
+    "summary": "Dérivé de la vancomycine avec un double mécanisme d'action contre le staphylocoque doré résistant (MRSA).",
+    "occurrence": "Synthétique.",
+    "applications": ["Infections cutanées compliquées"]
+  },
+  {
+    "name": "Octakis((phénoxyéthylphényl)silsesquioxane)",
+    "formula": "C₈₀H₈₀O₂₀Si₈",
+    "composition": { "C": 80, "H": 80, "O": 20, "Si": 8 },
+    "molarMass": "~1600 g/mol",
+    "category": "Polymère optique à haut indice de réfraction",
+    "summary": "Idéal pour la fabrication de lentilles minces pour caméras miniatures.",
+    "occurrence": "Synthétique.",
+    "applications": ["Optique mobile", "Surveillance"]
+  },
+  {
+    "name": "Tellururures de Bismuth et de Niobium (Bi₂NbTe₄)",
+    "formula": "Bi₂NbTe₄",
+    "composition": { "Bi": 2, "Nb": 1, "Te": 4 },
+    "molarMass": "~1021 g/mol",
+    "category": "Supraconducteur topologique",
+    "summary": "Découvert pour héberger des fermions de Majorana exotiques à sa surface.",
+    "occurrence": "Synthétique.",
+    "applications": ["Ordinateurs quantiques tolérants aux pannes"]
+  },
+  {
+    "name": "ZIF-65 (Nitro-Imidazolate de Zinc)",
+    "formula": "Zn(C₃H₂N₃O₂)₂",
+    "composition": { "Zn": 1, "C": 6, "H": 4, "N": 6, "O": 4 },
+    "molarMass": "289.51 g/mol",
+    "category": "MOF à structure SOD",
+    "summary": "Utilisé pour la séparation sélective du CO2 du diazote avec une stabilité exceptionnelle à l'eau.",
+    "occurrence": "Synthétique.",
+    "applications": ["Post-combustion industrielle"]
+  },
+  {
+    "name": "Séléniure de Samarium et de Gadolinium (SmGdSe₃)",
+    "formula": "SmGdSe₃",
+    "composition": { "Samarium": 1, "Gadolinium": 1, "Sélénium": 3 },
+    "molarMass": "~544.2 g/mol",
+    "category": "Matériau thermoélectrique haute performance",
+    "summary": "Optimisé pour la conversion de chaleur perdue dans les centrales thermiques.",
+    "occurrence": "Synthétique.",
+    "applications": ["Green tech"]
+  },
+  {
+    "name": "Belzutifan",
+    "formula": "C₁₃H₈F₃NO₄S",
+    "composition": { "C": 13, "H": 8, "F": 3, "N": 1, "O": 4, "S": 1 },
+    "molarMass": "327.27 g/mol",
+    "category": "Inhibiteur de HIF-2alpha",
+    "summary": "Utilisé pour traiter les tumeurs associées à la maladie de von Hippel-Lindau.",
+    "occurrence": "Synthétique.",
+    "applications": ["Oncologie génétique"]
+  },
+  {
+    "name": "Séléniure de Tungstène dopé au Rhénium (WSe₂:Re)",
+    "formula": "WSe₂Re",
+    "composition": { "W": 0.95, "Se": 2, "Re": 0.05 },
+    "molarMass": "~344 g/mol",
+    "category": "Semi-conducteur 2D n-type stable",
+    "summary": "Le dopage au rhénium assure une conduction électronique robuste pour les transistors 2D.",
+    "occurrence": "Synthétique.",
+    "applications": ["Micro-processeurs de pointe"]
+  },
+  {
+    "name": "Tellururure d'Argent, de Plomb et de Germanium (AGS-Pb)",
+    "formula": "AgPb₁₀GeSbTe₁₂",
+    "composition": { "Ag": 1, "Pb": 10, "Ge": 1, "Sb": 1, "Te": 12 },
+    "molarMass": "~3980 g/mol",
+    "category": "Matériau à phonons lents",
+    "summary": "Réduit la conductivité thermique à des niveaux records pour la génération d'électricité.",
+    "occurrence": "Synthétique.",
+    "applications": ["Énergie spatiale"]
+  },
+  {
+    "name": "Octakis((isocyanateoctyl)silsesquioxane)",
+    "formula": "C₇₂H₁₂₈N₈O₂₀Si₈",
+    "composition": { "C": 72, "H": 128, "N": 8, "O": 20, "Si": 8 },
+    "molarMass": "~1650 g/mol",
+    "category": "Agent de liaison pour mousses polymères",
+    "summary": "Confère une élasticité et une résilience supérieures aux mousses de siège aéronautique.",
+    "occurrence": "Synthétique.",
+    "applications": ["Confort passager", "Légèreté structurelle"]
+  },
+  {
+    "name": "Borure de Scandium et de Cobalt dopé au Nickel",
+    "formula": "ScCoNiB₂",
+    "composition": { "Sc": 1, "Co": 1, "Ni": 0.1, "B": 2 },
+    "molarMass": "~130 g/mol",
+    "category": "Céramique magnétique à faible hystérésis",
+    "summary": "Indispensable pour les têtes de lecture magnétiques de précision.",
+    "occurrence": "Synthétique.",
+    "applications": ["Big Data storage"]
+  },
+  {
+    "name": "Tellururure de Molybdène et de Tungstène (Mo₀.𝟓W₀.𝟓Te₂)",
+    "formula": "MoWTe₄",
+    "composition": { "Mo": 0.5, "W": 0.5, "Te": 2 },
+    "molarMass": "~394.8 g/mol",
+    "category": "Isolant topologique à gap ajustable",
+    "summary": "Matériau d'étude pour le contrôle électrique des états topologiques.",
+    "occurrence": "Synthétique.",
+    "applications": ["Spintronique quantique"]
+  },
+  { "name": "Tris(2-cyanoéthyl)phosphoramidite d'Inosine (Diméthoxytrityl)", "formula": "C₅₈H₆₄N₇O₉P", "composition": { "C": 58, "H": 64, "N": 7, "O": 9, "P": 1 }, "molarMass": "1032.14 g/mol", "category": "Bloc ADN spécialisé", "summary": "Permet l'amplification de régions génomiques hautement variables.", "occurrence": "Synthétique.", "applications": ["Séquençage de pathogènes"] },
+  { "name": "Bleu de Méthylène", "formula": "C₁₆H₁₈ClN₃S", "composition": { "C": 16, "H": 18, "Cl": 1, "N": 3, "S": 1 }, "molarMass": "319.85 g/mol", "category": "Phénothiazine", "summary": "Colorant biologique et médicament antitoxine.", "occurrence": "Synthétique.", "applications": ["Microscopie", "Antidote (Méthemolobinémie)"] },
+  { "name": "Rouge de Méthyle", "formula": "C₁₅H₁₅N₃O₂", "composition": { "C": 15, "H": 15, "N": 3, "O": 2 }, "molarMass": "269.30 g/mol", "category": "Indicateur coloré", "summary": "Indicateur de pH virant du rouge au jaune entre pH 4.2 et 6.2.", "occurrence": "Synthétique.", "applications": ["Vérification de pH"] },
+  { "name": "Jaune de Méthyle", "formula": "C₁₄H₁₅N₃", "composition": { "C": 14, "H": 15, "N": 3 }, "molarMass": "225.29 g/mol", "category": "Colorant azoïque", "summary": "Utilisé historiquement comme colorant pour le beurre, aujourd'hui reconnu comme cancérigène.", "occurrence": "Synthétique.", "applications": ["Coloration industrielle (Interdit alimentaire)"] },
+  { "name": "Phénolphtaléine", "formula": "C₂₀H₁₄O₄", "composition": { "C": 20, "H": 14, "O": 4 }, "molarMass": "318.32 g/mol", "category": "Indicateur de pH", "summary": "Devient rose vif en milieu basique (pH > 8.2).", "occurrence": "Synthétique.", "applications": ["Titrage chimique", "Magie (Encre invisible)"] },
+  { "name": "Bleu de Bromothymol", "formula": "C₂₇H₂₈Br₂O₅S", "composition": { "C": 27, "H": 28, "Br": 2, "O": 5, "S": 1 }, "molarMass": "624.38 g/mol", "category": "Indicateur acide-base", "summary": "Virage au jaune (acide), vert (neutre) et bleu (basique).", "occurrence": "Synthétique.", "applications": ["Aquariophilie", "Piscines"] },
+  { "name": "Héliantine (Méthylorange)", "formula": "C₁₄H₁₄N₃NaO₃S", "composition": { "C": 14, "H": 14, "N": 3, "Na": 1, "O": 3, "S": 1 }, "molarMass": "327.33 g/mol", "category": "Colorant azoïque", "summary": "Indicateur coloré très utilisé pour les dosages d'acides forts.", "occurrence": "Synthétique.", "applications": ["Chimie analytique"] },
+  { "name": "Rouge de Crésol", "formula": "C₂₁H₁₈O₅S", "composition": { "C": 21, "H": 18, "O": 5, "S": 1 }, "molarMass": "382.43 g/mol", "category": "Indicateur coloré", "summary": "Utilisé pour mesurer le pH des eaux de mer.", "occurrence": "Synthétique.", "applications": ["Océanographie"] },
+  { "name": "Bleu de Thymol", "formula": "C₂₇H₃₀O₅S", "composition": { "C": 27, "H": 30, "O": 5, "S": 1 }, "molarMass": "466.59 g/mol", "category": "Indicateur coloré", "summary": "Présente deux zones de virage (acide et basique).", "occurrence": "Synthétique.", "applications": ["Laboratoires de recherche"] },
+  { "name": "Indigotine (Carmin d'Indigo)", "formula": "C₁₆H₈N₂Na₂O₈S₂", "composition": { "C": 16, "H": 8, "N": 2, "Na": 2, "O": 8, "S": 2 }, "molarMass": "466.36 g/mol", "category": "Colorant E132", "summary": "Donne la couleur bleue caractéristique aux bonbons et médicaments.", "occurrence": "Synthétique.", "applications": ["Alimentation", "Cystoscopie"] },
+  { "name": "Érythrosine", "formula": "C₂₀H₆I₄Na₂O₅", "composition": { "C": 20, "H": 6, "I": 4, "Na": 2, "O": 5 }, "molarMass": "879.86 g/mol", "category": "Colorant rouge cerise E127", "summary": "Utilisé pour colorer les cerises confites.", "occurrence": "Synthétique.", "applications": ["Agroalimentaire", "Plaque dentaire"] },
+  { "name": "Tartrazine", "formula": "C₁₆H₉N₄Na₃O₉S₂", "composition": { "C": 16, "H": 9, "N": 4, "Na": 3, "O": 9, "S": 2 }, "molarMass": "534.37 g/mol", "category": "Colorant jaune E102", "summary": "Colorant très répandu pouvant provoquer des allergies.", "occurrence": "Synthétique.", "applications": ["Aliments", "Boissons gazeuses"] },
+  { "name": "Amarante", "formula": "C₂₀H₁₁N₂Na₃O₁₀S₃", "composition": { "C": 20, "H": 11, "N": 2, "Na": 3, "O": 10, "S": 3 }, "molarMass": "604.47 g/mol", "category": "Colorant azoïque E123", "summary": "Couleur rouge foncé, issue du goudron de houille.", "occurrence": "Synthétique.", "applications": ["Cosmétiques", "Textiles"] },
+  { "name": "Fuchsine (Rosaniline)", "formula": "C₂₀H₂₀ClN₃", "composition": { "C": 20, "H": 20, "Cl": 1, "N": 3 }, "molarMass": "337.85 g/mol", "category": "Colorant triphénylméthane", "summary": "Colorant magenta intense, premier colorant synthétique d'importance.", "occurrence": "Synthétique.", "applications": ["Coloration de Gram", "Désinfectant"] },
+  { "name": "Vert Malachite", "formula": "C₂₃H₂₅ClN₂", "composition": { "C": 23, "H": 25, "Cl": 1, "N": 2 }, "molarMass": "364.91 g/mol", "category": "Colorant triarylméthane", "summary": "Utilisé comme fongicide puissant en aquariophilie.", "occurrence": "Synthétique.", "applications": ["Pisciculture", "Teinture"] },
+  { "name": "Cristal Violet (Violet de Gentiane)", "formula": "C₂₅H₃₀ClN₃", "composition": { "C": 25, "H": 30, "Cl": 1, "N": 3 }, "molarMass": "407.98 g/mol", "category": "Antiseptique et colorant", "summary": "Principal composant de la coloration de Gram en bactériologie.", "occurrence": "Synthétique.", "applications": ["Bactériologie", "Marquage cutané"] },
+  { "name": "Éosine Y", "formula": "C₂₀H₆Br₄Na₂O₅", "composition": { "C": 20, "H": 6, "Br": 4, "Na": 2, "O": 5 }, "molarMass": "691.85 g/mol", "category": "Colorant xanthénique", "summary": "Utilisé pour colorer le cytoplasme en rose en histologie.", "occurrence": "Synthétique.", "applications": ["Laboratoire", "Antiseptique local"] },
+  { "name": "Fluorescéine (Uranine)", "formula": "C₂₀H₁₂O₅", "composition": { "C": 20, "H": 12, "O": 5 }, "molarMass": "332.31 g/mol", "category": "Traceur fluorescent", "summary": "Puissante couleur verte neon sous UV, visible à de très faibles concentrations.", "occurrence": "Synthétique.", "applications": ["Hydrologie", "Ophtalmologie (Angiographie)"] },
+  { "name": "Rhodamine B", "formula": "C₂₈H₃₁ClN₂O₃", "composition": { "C": 28, "H": 31, "Cl": 1, "N": 2, "O": 3 }, "molarMass": "479.01 g/mol", "category": "Fluorophore", "summary": "Colorant rose brillant utilisé dans la recherche cellulaire.", "occurrence": "Synthétique.", "applications": ["Biotechnologie", "Lasers à colorant"] },
+  { "name": "Noir Ériochrome T", "formula": "C₂₀H₁₂N₃NaO₇S", "composition": { "C": 20, "H": 12, "N": 3, "Na": 1, "O": 7, "S": 1 }, "molarMass": "461.38 g/mol", "category": "Indicateur de dureté", "summary": "Indicateur spécifique pour le dosage du calcium et magnésium.", "occurrence": "Synthétique.", "applications": ["Analyse de l'eau"] },
+  { "name": "Murexide (Purpurate d'ammonium)", "formula": "C₈H₈N₆O₆", "composition": { "C": 8, "H": 8, "N": 6, "O": 6 }, "molarMass": "284.19 g/mol", "category": "Indicateur complexométrique", "summary": "Utilisé pour la détection du calcium par colorimétrie.", "occurrence": "Synthétique.", "applications": ["Chimie clinique"] },
+  { "name": "Alizarine", "formula": "C₁₄H₈O₄", "composition": { "C": 14, "H": 8, "O": 4 }, "molarMass": "240.21 g/mol", "category": "Anthraquinone", "summary": "Pigment rouge historique extrait autrefois de la garance.", "occurrence": "Synthétique / Naturel.", "applications": ["Peinture", "Teinture textile"] },
+  { "name": "Curcumine", "formula": "C₂₁H₂₀O₆", "composition": { "C": 21, "H": 20, "O": 6 }, "molarMass": "368.38 g/mol", "category": "Colorant polyphénolique E100", "summary": "Pigment jaune vif du curcuma aux propriétés anti-inflammatoires.", "occurrence": "Curcuma longa.", "applications": ["Épices", "Compléments alimentaires"] },
+  { "name": "Bêta-Carotène", "formula": "C₄₀H₅₆", "composition": { "C": 40, "H": 56 }, "molarMass": "536.87 g/mol", "category": "Tétra-terpène E160a", "summary": "Pigment orange des carottes, précurseur de la vitamine A.", "occurrence": "Végétaux.", "applications": ["Alimentation", "Bronzeur"] },
+  { "name": "Lycopène", "formula": "C₄₀H₅₆", "composition": { "C": 40, "H": 56 }, "molarMass": "536.87 g/mol", "category": "Isomère du carotène E160d", "summary": "Pigment rouge vif des tomates.", "occurrence": "Tomate.", "applications": ["Antioxydant"] },
+  { "name": "Chlorophylle a", "formula": "C₅₅H₇₂MgN₄O₅", "composition": { "C": 55, "H": 72, "Mg": 1, "N": 4, "O": 5 }, "molarMass": "893.49 g/mol", "category": "Pigment photosynthétique", "summary": "Responsable de la capture de l'énergie lumineuse chez les plantes vertes.", "occurrence": "Feuilles vertes.", "applications": ["Colorant E140", "Additif"] },
+  { "name": "Anthocyane (Cyanidine)", "formula": "C₁₅H₁₁O₆⁺", "composition": { "C": 15, "H": 11, "O": 6 }, "molarMass": "287.24 g/mol", "category": "Pigment flavonoïde", "summary": "Donne les couleurs rouges, bleues et violettes aux fleurs et fruits.", "occurrence": "Baies rouges, chou rouge.", "applications": ["Indicateur naturel de pH"] },
+  { "name": "Carmin (Acide carminique)", "formula": "C₂₂H₂₀O₁₃", "composition": { "C": 22, "H": 20, "O": 13 }, "molarMass": "492.39 g/mol", "category": "Colorant animal E120", "summary": "Colorant rouge vif extrait de la cochenille.", "occurrence": "Insecte (Cochenille).", "applications": ["Rouges à lèvres", "Aliments"] },
+  { "name": "Safranine O", "formula": "C₂₀H₁₉ClN₄", "composition": { "C": 20, "H": 19, "Cl": 1, "N": 4 }, "molarMass": "350.84 g/mol", "category": "Colorant biologique azine", "summary": "Contre-colorant rouge en microbiologie.", "occurrence": "Synthétique.", "applications": ["Microscopie", "Histologie"] },
+  { "name": "Bleu de Nil", "formula": "C₂₀H₂₀ClN₃O", "composition": { "C": 20, "H": 20, "Cl": 1, "N": 3, "O": 1 }, "molarMass": "353.85 g/mol", "category": "Colorant oxazine", "summary": "Utilisé pour la détection histochimique des lipides neutres.", "occurrence": "Synthétique.", "applications": ["Biologie cellulaire"] },
+  { "name": "Naphthol Jaune S", "formula": "C₁₀H₄N₂Na₂O₈S", "composition": { "C": 10, "H": 4, "N": 2, "Na": 2, "O": 8, "S": 1 }, "molarMass": "358.19 g/mol", "category": "Colorant nitré", "summary": "Utilisé pour la teinture de la laine et de la soie.", "occurrence": "Synthétique.", "applications": ["Teinte textile"] },
+  { "name": "Bleu Patenté V", "formula": "C₂₇H₃₁N₂NaO₇S₂", "composition": { "C": 27, "H": 31, "N": 2, "Na": 1, "O": 7, "S": 2 }, "molarMass": "582.66 g/mol", "category": "Colorant E131", "summary": "Utilisé en médecine pour la lymphographie par coloration.", "occurrence": "Synthétique.", "applications": ["Repérage chirurgical", "Aliments"] },
+  { "name": "Vert Solide FCF", "formula": "C₃₇H₃₄N₂Na₂O₁₀S₃", "composition": { "C": 37, "H": 34, "N": 2, "Na": 2, "O": 10, "S": 3 }, "molarMass": "808.85 g/mol", "category": "Colorant triarylméthane E143", "summary": "Appelé aussi Vert Fast, utilisé dans les desserts.", "occurrence": "Synthétique.", "applications": ["Boissons", "Gelées"] },
+  { "name": "Azorubine (Carmoisine)", "formula": "C₂₀H₁₂N₂Na₂O₇S₂", "composition": { "C": 20, "H": 12, "N": 2, "Na": 2, "O": 7, "S": 2 }, "molarMass": "502.43 g/mol", "category": "Colorant rouge E122", "summary": "Colorant azoïque fournissant une teinte rouge framboise.", "occurrence": "Synthétique.", "applications": ["Sirops", "Yaourts"] },
+  { "name": "Rouge Allura AC", "formula": "C₁₈H₁₄N₂Na₂O₈S₂", "composition": { "C": 18, "H": 14, "N": 2, "Na": 2, "O": 8, "S": 2 }, "molarMass": "496.42 g/mol", "category": "Colorant azoïque E129", "summary": "Le colorant rouge le plus commun aux États-Unis.", "occurrence": "Synthétique.", "applications": ["Céréales", "Snacks orange-rouge"] },
+  { "name": "Phloxine B", "formula": "C₂₀H₂Br₄Cl₄Na₂O₅", "composition": { "C": 20, "H": 2, "Br": 4, "Cl": 4, "Na": 2, "O": 5 }, "molarMass": "829.63 g/mol", "category": "Colorant cerise", "summary": "Dérivé de la fluorescéine utilisé pour la coloration des tissus morts.", "occurrence": "Synthétique.", "applications": ["Forensique", "Cosmétiques"] },
+  { "name": "Orangé G", "formula": "C₁₆H₁₀N₂Na₂O₇S₂", "composition": { "C": 16, "H": 10, "N": 2, "Na": 2, "O": 7, "S": 2 }, "molarMass": "452.37 g/mol", "category": "Colorant histologique", "summary": "Utilisé dans la technique de coloration de Papanicolaou pour le dépistage du cancer.", "occurrence": "Synthétique.", "applications": ["Cytopathologie"] },
+  { "name": "Bleu brillant FCF", "formula": "C₃₇H₃₄N₂Na₂O₉S₃", "composition": { "C": 37, "H": 34, "N": 2, "Na": 2, "O": 9, "S": 3 }, "molarMass": "792.85 g/mol", "category": "Colorant bleu E133", "summary": "Colorant bleu éclatant utilisé dans les glaces 'Schtroumpf'.", "occurrence": "Synthétique.", "applications": ["Sucreries", "Sprays buccaux"] },
+  { "name": "Noir Brillant BN", "formula": "C₂₈H₁₇N₅Na₄O₁₄S₄", "composition": { "C": 28, "H": 17, "N": 5, "Na": 4, "O": 14, "S": 4 }, "molarMass": "867.68 g/mol", "category": "Colorant noir E151", "summary": "Mélange azoïque pour les colorations noires foncées.", "occurrence": "Synthétique.", "applications": ["Substituts de caviar"] },
+  { "name": "Brun HT", "formula": "C₂₇H₁₈N₄Na₂O₉S₂", "composition": { "C": 27, "H": 18, "N": 4, "Na": 2, "O": 9, "S": 2 }, "molarMass": "652.56 g/mol", "category": "Colorant brun E155", "summary": "Donne une couleur chocolat aux produits de boulangerie.", "occurrence": "Synthétique.", "applications": ["Pâtisserie industrielle"] },
+  { "name": "Jaune de Quinoléine", "formula": "C₁₈H₉NNa₂O₈S₂", "composition": { "C": 18, "H": 9, "N": 1, "Na": 2, "O": 8, "S": 2 }, "molarMass": "477.37 g/mol", "category": "Colorant jaune E104", "summary": "Colorant jaune verdâtre soluble dans l'eau.", "occurrence": "Synthétique.", "applications": ["Médicaments", "Cosmétiques"] },
+  { "name": "Lithol Rubine BK", "formula": "C₁₈H₁₂N₂Na₂O₆S", "composition": { "C": 18, "H": 12, "N": 2, "Na": 2, "O": 6, "S": 1 }, "molarMass": "430.34 g/mol", "category": "Colorant de synthèse E180", "summary": "Utilisé spécifiquement pour colorer les croûtes de fromage.", "occurrence": "Synthétique.", "applications": ["Revêtement de fromage"] },
+  { "name": "Rocou (Bixine)", "formula": "C₂₅H₃₀O₄", "composition": { "C": 25, "H": 30, "O": 4 }, "molarMass": "394.50 g/mol", "category": "Caroténoïde naturel E160b", "summary": "Colorant le plus utilisé pour le fromage (Cheddar, Mimolette).", "occurrence": "Graines de Bixa orellana.", "applications": ["Laiterie"] },
+  { "name": "Lutéine", "formula": "C₄₀H₅₆O₂", "composition": { "C": 40, "H": 56, "O": 2 }, "molarMass": "568.87 g/mol", "category": "Xanthophylle E161b", "summary": "Pigment jaune protégeant la rétine des UV.", "occurrence": "Œillets d'Inde, épinards.", "applications": ["Ophtalmologie", "Alimentation animale"] },
+  { "name": "Astaxanthine", "formula": "C₄₀H₅₂O₄", "composition": { "C": 40, "H": 52, "O": 4 }, "molarMass": "596.84 g/mol", "category": "Caroténoïde rose-rouge E161j", "summary": "Donne sa couleur rose au saumon et aux flamants roses.", "occurrence": "Microalgues.", "applications": ["Aquaculture", "Antioxydant"] },
+  { "name": "Zéaxanthine", "formula": "C₄₀H₅₆O₂", "composition": { "C": 40, "H": 56, "O": 2 }, "molarMass": "568.87 g/mol", "category": "Pigment maculaire E161h", "summary": "Isomère de la lutéine.", "occurrence": "Maïs jaune.", "applications": ["Santé visuelle"] },
+  { "name": "Canthaxanthine", "formula": "C₄₀H₅₂O₂", "composition": { "C": 40, "H": 52, "O": 2 }, "molarMass": "564.84 g/mol", "category": "Caroténoïde E161g", "summary": "Utilisé pour intensifier la couleur orange des jaunes d'œuf.", "occurrence": "Plantes et crustacés.", "applications": ["Phanéromères", "Alimentation animale"] },
+  { "name": "Lycéine (Rouge de Betterave)", "formula": "C₂₄H₂₆N₂O₁₃", "composition": { "C": 24, "H": 26, "N": 2, "O": 13 }, "molarMass": "550.47 g/mol", "category": "Bétalaïne E162", "summary": "Pigment naturel rouge-violet des betteraves.", "occurrence": "Betterave rouge.", "applications": ["Glaces", "Sirops"] },
+  { "name": "Phycocyanine", "formula": "C₃₃H₄₀N₄O₆", "composition": { "C": 33, "H": 40, "N": 4, "O": 6 }, "molarMass": "588.70 g/mol", "category": "Phycobiliprotéine", "summary": "Seul colorant bleu naturel intense autorisé dans l'alimentation.", "occurrence": "Spiruline.", "applications": ["Nutriments", "Glace bleue naturelle"] },
+  { "name": "Hémoglobine (Groupe Hème)", "formula": "C₃₄H₃₂FeN₄O₄", "composition": { "C": 34, "H": 32, "Fe": 1, "N": 4, "O": 4 }, "molarMass": "616.49 g/mol", "category": "Pigment sanguin", "summary": "Responsable du transport de l'oxygène et de la couleur rouge du sang.", "occurrence": "Globules rouges.", "applications": ["Physiologie"] },
+  { "name": "Mélanine (Eumélanine)", "formula": "(C₈H₅NO₃)ₙ", "composition": { "C": 8, "H": 5, "N": 1, "O": 3 }, "molarMass": "Polymère", "category": "Pigment biologique protecteur", "summary": "Responsable de la couleur foncée de la peau, des cheveux et des yeux.", "occurrence": "Mélanocytes.", "applications": ["Photoprotection naturelle"] },
+  { "name": "Bilirubine", "formula": "C₃₃H₃₆N₄O₆", "composition": { "C": 33, "H": 36, "N": 4, "O": 6 }, "molarMass": "584.66 g/mol", "category": "Pigment biliaire", "summary": "Déchet jaune de la dégradation de l'hémoglobine.", "occurrence": "Bile.", "applications": ["Indicateur d'ictère (Jaunisse)"] },
+  { "name": "Biliverdine", "formula": "C₃₃H₃₄N₄O₆", "composition": { "C": 33, "H": 34, "N": 4, "O": 6 }, "molarMass": "582.65 g/mol", "category": "Pigment vert", "summary": "Donne la couleur verte aux ecchymoses en cours de guérison.", "occurrence": "Métabolisme de l'hème.", "applications": ["Biochimie"] },
+  {
+    "name": "Tétra-n-butylammonium iodure",
+    "formula": "C₁₆H₃₆IN",
+    "composition": { "C": 16, "H": 36, "I": 1, "N": 1 },
+    "molarMass": "369.37 g/mol",
+    "category": "Catalyseur de transfert de phase",
+    "summary": "Permet la réaction entre des espèces solubles dans l'eau et dans les solvants organiques.",
+    "occurrence": "Synthétique",
+    "applications": ["Synthèse organique"]
+  },
+  {
+    "name": "Triéthylènediamine (DABCO)",
+    "formula": "C₆H₁₂N₂",
+    "composition": { "C": 6, "H": 12, "N": 2 },
+    "molarMass": "112.17 g/mol",
+    "category": "Catalyseur amine tertiaire bicyclique",
+    "summary": "Catalyseur puissant pour la production de polyuréthanes.",
+    "occurrence": "Synthétique",
+    "applications": ["Industrie des polymères"]
+  }
+];

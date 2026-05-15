@@ -1,0 +1,20 @@
+import { MoleculeDefinition } from '../../types/molecule';
+
+/**
+ * Super-Bibliothèque de Molécules - Série P96
+ * Focus: Toxines, Venins et Alcaloïdes Toxiques Naturels.
+ * Copyright Sébastien John Bruneau
+ */
+export const MOLECULES_P96: MoleculeDefinition[] = [
+  { "name": "Tétrodotoxine", "formula": "C₁₁H₁₇N₃O₈", "composition": { "C": 11, "H": 17, "N": 3, "O": 8 }, "molarMass": "319.27 g/mol", "category": "Neurotoxine", "summary": "Poison extrêmement puissant bloquant les canaux sodiques volt-dépendants.", "occurrence": "Poisson-globe (Fugu), pieuvre à anneaux bleus.", "applications": ["Neurosciences (outil de blocage)"] },
+  { "name": "Batrachotoxine", "formula": "C₃₁H₄₂N₂O₆", "composition": { "C": 31, "H": 42, "N": 2, "O": 6 }, "molarMass": "538.68 g/mol", "category": "Alcaloïde stéroïdien", "summary": "L'une des toxines les plus mortelles connues, empêche la fermeture des canaux sodiques.", "occurrence": "Grenouilles Dendrobatidae.", "applications": ["Recherche médicale"] },
+  { "name": "Conotoxine (Alpha)", "formula": "C₆₄H₉₅N₁₉O₂₆S₄", "composition": { "C": 64, "H": 95, "N": 19, "O": 26, "S": 4 }, "molarMass": "1642.82 g/mol", "category": "Peptide conotoxine", "summary": "Peptide neurotoxique empêchant la transmission synaptique.", "occurrence": "Escargots marins du genre Conus.", "applications": ["Analgésiques expérimentaux"] },
+  { "name": "Aconitine", "formula": "C₃₄H₄₇NO₁₁", "composition": { "C": 34, "H": 47, "N": 1, "O": 11 }, "molarMass": "645.74 g/mol", "category": "Terpène alcaloïde", "summary": "Surnommée la 'reine des poisons', extrêmement mortelle par contact.", "occurrence": "Aconite (Casque de Jupiter).", "applications": ["Homéopathie (dilutions extrêmes)"] },
+  { "name": "Ricine (Chaîne A)", "formula": "C₁₂H₂₀N₄O₄", "composition": { "C": 12, "H": 20, "N": 4, "O": 4 }, "molarMass": "284.31 g/mol", "category": "Liaison peptidique", "summary": "Protéine hautement toxique qui inhibe la synthèse des protéines.", "occurrence": "Graines de ricin.", "applications": ["Toxicologie", "Bioterrorisme (surveillance)"] },
+  { "name": "Digitoxine", "formula": "C₄₁H₆₄O₁₃", "composition": { "C": 41, "H": 64, "O": 13 }, "molarMass": "764.94 g/mol", "category": "Glycoside stéroïdien", "summary": "Toxine de la digitale, similaire à la digoxine mais avec une demi-vie plus longue.", "occurrence": "Digitalis purpurea.", "applications": ["Insuffisance cardiaque (historique)"] },
+  { "name": "Solanine", "formula": "C₄₅H₇₃NO₁₅", "composition": { "C": 45, "H": 73, "N": 1, "O": 15 }, "molarMass": "868.06 g/mol", "category": "Glycoalcaloïde", "summary": "Substance amère et toxique se développant dans les parties vertes des pommes de terre.", "occurrence": "Pommes de terre germées, Tomates vertes.", "applications": ["Défense des plantes"] },
+  { "name": "Amygdaline", "formula": "C₂₀H₂₇NO₁₁", "composition": { "C": 20, "H": 27, "N": 1, "O": 11 }, "molarMass": "457.43 g/mol", "category": "Glycoside cyanogène", "summary": "Libère du cyanure d'hydrogène lors de la digestion.", "occurrence": "Amandes amères, noyaux d'abricots.", "applications": ["Recherche sur le cancer (controversé/inefficace)"] },
+  { "name": "Oxyde de Carbone (Monoxyde)", "formula": "CO", "composition": { "C": 1, "O": 1 }, "molarMass": "28.01 g/mol", "category": "Gaz toxique", "summary": "Gaz inodore et mortel qui se lie à l'hémoglobine avec une affinité supérieure à l'oxygène.", "occurrence": "Combustion incomplète.", "applications": ["Réducteur industriel"] },
+  { "name": "Cyanure d'Hydrogène", "formula": "HCN", "composition": { "H": 1, "C": 1, "N": 1 }, "molarMass": "27.03 g/mol", "category": "Gaz hautement toxique", "summary": "Inhibiteur puissant de la chaîne respiratoire mitochondriale.", "occurrence": "Fruits à noyaux, Fumée de tabac.", "applications": ["Synthèse de polymères", "Fumigation"] },
+  { "name": "Arsine", "formula": "AsH₃", "composition": { "As": 1, "H": 3 }, "molarMass": "77.95 g/mol", "category": "Gaz inorganique toxique", "summary": "Gaz extrêmement toxique provoquant une hémolyse massive.", "occurrence": "Synthétique", "applications": ["Électronique (dopage semi-conducteurs)"] }
+];

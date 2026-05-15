@@ -1,0 +1,53 @@
+# Configuration de l'Interface : UI1
+# Date d'enregistrement : 2026-05-13
+# Auteur : Sébastien John Bruneau (via Gemini)
+
+## Structure Générale
+- **Layout** : Conteneur flex horizontal (`flex h-screen`) occupant toute la hauteur de l'écran.
+- **Thème** : Dark Mode profond.
+  - Arrière-plan principal : `#0a0a0b`
+  - Arrière-plan Sidebar : `#161618`
+  - Bordures : `#27272a`
+  - Accent Color : Bleu (`#2563eb` / `blue-600`)
+
+## Composants Principaux
+
+### 1. Sidebar (Navigation Latérale)
+- **État** : Rétractable/Collapsible (Largeur : 260px ou 80px).
+- **Éléments** :
+  - Logo "Nexus Atomica" avec icône `FlaskConical` bleue.
+  - Navigation :
+    - Tableau Périodique (`Beaker`)
+    - Espace Recherche (`Users`)
+    - Comparateur (`ChevronRight`)
+    - Fusion Moléculaire (`Atom`)
+    - Dictionnaire (`Info`)
+- **Footer** : Profil utilisateur (Avatar, Email) ou Bouton Connexion Google, suivi du Copyright.
+
+### 2. Header (Barre d'outils)
+- **Style** : Effet de verre (`backdrop-blur-md`), hauteur 64px (h-16).
+- **Contenu** :
+  - Barre de recherche centrale avec icône `Search`.
+  - Filtre d'états d'oxydation (Select) spécifique à la vue Tableau.
+  - Bouton de menu pour replier la sidebar.
+
+### 3. Zone de Contenu (Main)
+- **Transition** : `AnimatePresence` avec `motion/react` (fades et slides légers).
+- **Composants Dynamiques** :
+  - `PeriodicTable`
+  - `ResearchHub`
+  - `ComparisonView`
+  - `DictionaryView`
+  - `MoleculeBuilder`
+
+### 4. Modales
+- **ElementModal** : Affichage plein écran avec floutage d'arrière-plan, onglets pour les propriétés, composés, et recherche IA.
+- **MoleculeModal** : Panneau de détails pour les molécules de la bibliothèque.
+
+## Typographie et Icônes
+- **Police** : Sans-serif (Inter/Geist par défaut via Tailwind).
+- **Icônes** : `lucide-react`.
+- **Animations** : `motion/react` (Transitions douces de routes et d'états).
+
+## Copyright
+"© Sébastien John Bruneau" - systématiquement affiché en bas de la sidebar et dans les en-têtes de fichiers.
